@@ -433,6 +433,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Tools/BuildPipeline/Unity.SourceGenerators/Unity.UIToolkit.SourceGenerator.dll"
 "Assets/MAIN STUFF/SCRIPTS/Door.cs"
 "Assets/MAIN STUFF/SCRIPTS/GameManager.cs"
+"Assets/MAIN STUFF/SCRIPTS/PlayerPersist.cs"
 "Assets/MAIN STUFF/SCRIPTS/SmoothFlicker.cs"
 "Assets/MAIN STUFF/SCRIPTS/SpawnManager.cs"
 "Assets/MAIN STUFF/SCRIPTS/ThirdPersonCamera.cs"

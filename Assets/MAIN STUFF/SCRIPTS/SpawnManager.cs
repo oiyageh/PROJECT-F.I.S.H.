@@ -10,7 +10,7 @@ public class SpawnManager : MonoBehaviour
 
         string spawnName = GameManager.Instance.spawnPointName;
 
-        if (spawnName == "") return;
+        if (string.IsNullOrEmpty(spawnName)) return;
 
         GameObject spawnPoint = GameObject.Find(spawnName);
 
