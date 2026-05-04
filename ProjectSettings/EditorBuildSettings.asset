@@ -14,6 +14,18 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MAIN STUFF/TEST SCENE/TSHALLWAY2.unity
     guid: 187cf91107cbe004b8a6d2096762f5e4
+  - enabled: 1
+    path: Assets/MAIN STUFF/TEST SCENE/TSCLEANROOM.unity
+    guid: 424fdaaca15ec6d4b8dc2af53b5d5819
+  - enabled: 1
+    path: Assets/MAIN STUFF/TEST SCENE/TSDRYLABS.unity
+    guid: 1a25ae9ea23604249a4524a3c36b0bc9
+  - enabled: 1
+    path: Assets/MAIN STUFF/TEST SCENE/TSENVIORMENTALROOM.unity
+    guid: e1264d1cd98d9ff4ea860405e59e3901
+  - enabled: 1
+    path: Assets/MAIN STUFF/TEST SCENE/TSSTORAGE.unity
+    guid: cf50f504e59f8364d8098fe3fc8d6c2a
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
