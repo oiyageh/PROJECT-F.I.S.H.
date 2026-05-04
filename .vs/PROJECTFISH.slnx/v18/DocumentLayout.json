@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\thirdpersoncamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\ThirdPersonController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MAIN STUFF\\SCRIPTS\\ThirdPersonController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,6 +25,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\playerpersist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\playerpersist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\thirdpersoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,24 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SpawnManager.cs",
-              "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
-              "ToolTip": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
-              "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T18:54:52.676Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\Door.cs",
@@ -67,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\GameManager.cs",
@@ -79,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "SmoothFlicker.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SmoothFlicker.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\SmoothFlicker.cs",
@@ -91,20 +82,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ThirdPersonCamera.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\ThirdPersonCamera.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\ThirdPersonCamera.cs",
               "ToolTip": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\ThirdPersonCamera.cs",
               "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\ThirdPersonCamera.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAkwEgAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-02T17:15:29.898Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "PlayerPersist.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\PlayerPersist.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\PlayerPersist.cs",
@@ -116,7 +107,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "ThirdPersonController.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\ThirdPersonController.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\ThirdPersonController.cs",
@@ -124,8 +115,32 @@
               "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\ThirdPersonController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAB0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-03T20:11:24.936Z",
+              "WhenOpened": "2026-05-03T20:11:24.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
+              "ToolTip": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T03:48:47.521Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SpawnManager.cs",
+              "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
+              "ToolTip": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
+              "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-03T18:54:52.676Z"
             }
           ]
         }
