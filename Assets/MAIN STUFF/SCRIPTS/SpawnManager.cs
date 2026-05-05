@@ -5,7 +5,7 @@ public class SpawnManager : MonoBehaviour
 {
     IEnumerator Start()
     {
-        yield return null; // wait 1 frame so scene fully loads
+        yield return null; // wait for scene to load
 
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player == null) yield break;
@@ -14,22 +14,22 @@ public class SpawnManager : MonoBehaviour
         if (string.IsNullOrEmpty(spawnName)) yield break;
 
         GameObject spawnPoint = GameObject.Find(spawnName);
+        if (spawnPoint == null) yield break;
 
-        if (spawnPoint != null)
-        {
-            player.transform.position = spawnPoint.transform.position;
+        // Handle CharacterController properly
+        CharacterController cc = player.GetComponent<CharacterController>();
+        if (cc != null) cc.enabled = false;
 
-            // Reset physics (VERY important if using Rigidbody)
-            Rigidbody rb = player.GetComponent<Rigidbody>();
-            if (rb != null)
-            {
-                rb.linearVelocity = Vector3.zero;
-                rb.angularVelocity = Vector3.zero;
-            }
-        }
-        else
+        Vector3 pos = spawnPoint.transform.position + Vector3.up * 2f;
+        player.transform.position = pos;
+
+        // Snap to ground
+        RaycastHit hit;
+        if (Physics.Raycast(player.transform.position, Vector3.down, out hit, 5f))
         {
-            Debug.LogWarning("Spawn point not found: " + spawnName);
+            player.transform.position = hit.point;
         }
+
+        if (cc != null) cc.enabled = true;
     }
 }
