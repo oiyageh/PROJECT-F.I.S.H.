@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32426 MB
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola" at "2026-05-06T13:03:05.1823776Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola" at "2026-05-06T13:26:40.3758903Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-06T13:03:05Z
+Date: 2026-05-06T13:26:40Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Omola/Documents/GitHub/PROJECTFISH
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59278
+54620
 -licensingIpc
 LicenseClient-Omola
 -job-worker-count
@@ -67,14 +67,14 @@ C:/Users/Omola/Documents/GitHub/PROJECTFISH
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [20136]  Target information:
+Player connection [3784]  Target information:
 
-Player connection [20136]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3588311148 [EditorId] 3588311148 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3784]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 4050999155 [EditorId] 4050999155 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20136]  * "[IP] 172.20.10.14 [Port] 0 [Flags] 2 [Guid] 3588311148 [EditorId] 3588311148 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [3784]  * "[IP] 172.20.10.14 [Port] 0 [Flags] 2 [Guid] 4050999155 [EditorId] 4050999155 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [20136] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [20136] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [3784] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3784] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -102,46 +102,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56076
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56280
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005767 seconds.
-- Loaded All Assemblies, in  0.454 seconds
+Registered in 0.004816 seconds.
+- Loaded All Assemblies, in  0.385 seconds
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.348 seconds
-Domain Reload Profiling: 793ms
-	BeginReloadAssembly (172ms)
+- Finished resetting the current domain, in  0.331 seconds
+Domain Reload Profiling: 707ms
+	BeginReloadAssembly (133ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (73ms)
-	LoadAllAssembliesAndSetupDomain (153ms)
-		LoadAssemblies (156ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (137ms)
+		LoadAssemblies (123ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (134ms)
+		AnalyzeDomain (134ms)
+			TypeCache.Refresh (133ms)
+				TypeCache.ScanAssembly (122ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (349ms)
+	FinalizeReload (332ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (316ms)
+		SetupLoadedEditorAssemblies (303ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (48ms)
+			InitializePlatformSupportModulesInManaged (47ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (71ms)
-			ProcessInitializeOnLoadAttributes (134ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (133ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -153,22 +153,22 @@ Begin MonoManager ReloadAssembly
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              b558f3e3f9ac4727a6c69686516fe44e
+  Session Id:              dfcb306f8da646eab8fae9f284306fd8
   Correlation Id:          42bd282d55f46869c81d98abd4167511
-  External correlation Id: 808824153782682736
+  External correlation Id: 5785114968421740738
   Machine Id:              Vt39me9IhWDxxx0Srn0x/ASpSWo=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Omola" (connect: 0.00s, validation: 0.00s, handshake: 1.64s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola-notifications" at "2026-05-06T13:03:06.8246862Z"
-[Licensing::Module] Licensing Background thread has ended after 1.64s
-[Licensing::Module] Licensing is initialized (took 0.10s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Omola" (connect: 0.00s, validation: 0.00s, handshake: 1.55s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola-notifications" at "2026-05-06T13:26:41.932164Z"
+[Licensing::Module] Licensing Background thread has ended after 1.56s
+[Licensing::Module] Licensing is initialized (took 0.16s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 2475878297269-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.865 seconds
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.800 seconds
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -177,224 +177,84 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.633 seconds
-Domain Reload Profiling: 1478ms
-	BeginReloadAssembly (306ms)
+- Finished resetting the current domain, in  0.494 seconds
+Domain Reload Profiling: 1282ms
+	BeginReloadAssembly (329ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (32ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (438ms)
-		LoadAssemblies (408ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (375ms)
+		LoadAssemblies (333ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (157ms)
-			TypeCache.Refresh (122ms)
-				TypeCache.ScanAssembly (112ms)
-			BuildScriptInfoCaches (29ms)
-			ResolveRequiredComponents (4ms)
-	FinalizeReload (634ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (111ms)
+				TypeCache.ScanAssembly (101ms)
+			BuildScriptInfoCaches (27ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (494ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (534ms)
+		SetupLoadedEditorAssemblies (411ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (138ms)
-			ProcessInitializeOnLoadAttributes (316ms)
-			ProcessInitializeOnLoadMethodAttributes (40ms)
-			AfterProcessingInitializeOnLoad (34ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (21ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.59 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3934 unused Assets / (1.3 MB). Loaded Objects now: 4533.
-Memory consumption went from 95.1 MB to 93.8 MB.
-Total: 7.983100 ms (FindLiveObjects: 0.570600 ms CreateObjectMapping: 0.181400 ms MarkObjects: 5.822000 ms  DeleteObjects: 1.407600 ms)
+Unloading 3934 unused Assets / (1.1 MB). Loaded Objects now: 4534.
+Memory consumption went from 95.2 MB to 94.1 MB.
+Total: 5.217500 ms (FindLiveObjects: 0.371000 ms CreateObjectMapping: 0.117000 ms MarkObjects: 3.891800 ms  DeleteObjects: 0.837000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1686.425762 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/LEFTARM.mat
-  artifactKey: Guid(3de3b98e845ee6b4ea91a1652e29beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/3D MODELS/LEFTARM.mat using Guid(3de3b98e845ee6b4ea91a1652e29beaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd84358367d2dc86c2daf788e254dfc3') in 0.0936577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.992554 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f06bc62026555c1d8803110ef094bb44') in 0.1895964 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.798830 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0eb8b22f749903d6902956153ad1aa5d') in 0.0977822 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 75.229797 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaf9f8d3151959ec490f897c09690ec4') in 0.0824994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.906291 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0ff6d99dc432157d5c40d9825209d05') in 0.0219789 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.608089 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffe4c5b841ac1c5bd98762618fbd0e13') in 0.1364435 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.850757 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b36d8df852f6f1d3c9d12fa737230123') in 0.0237372 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 119
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.263348 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cb1384acedc9f6efd0275ec4e74d329d') in 0.1965408 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 121
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.785563 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '610387c031efcb26f0550a641106ea5d') in 0.0237032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 121
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.189916 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7837cea2fc4fea2d7937d9b3a3e5f9bc') in 0.0662583 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 121
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.920606 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx
-  artifactKey: Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT@Running.fbx using Guid(13947da703b678c4e9dc2e1f6cdc1d5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1918d92db2251cfbbfcd1de17f426ff1') in 0.0130608 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 105
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003884 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.008.mat
-  artifactKey: Guid(3502ef2a056f7f5488ee0f794f36af0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.008.mat using Guid(3502ef2a056f7f5488ee0f794f36af0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a495e75ac2d5a7ba5ef2dea3488ae2e') in 0.0099385 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.007.mat
-  artifactKey: Guid(036ea002dd1814f429c14fc3321f5b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.007.mat using Guid(036ea002dd1814f429c14fc3321f5b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '714fa393d8ca05371fb677dbfa96a755') in 0.0076387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.004.mat
-  artifactKey: Guid(239081aef4f5d9a47bc9028cff502ac0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.004.mat using Guid(239081aef4f5d9a47bc9028cff502ac0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ec35b5122ac5c865b0b72396b6d5ae4') in 0.0077761 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.001.mat
-  artifactKey: Guid(e23e34f3d909c424e8af5b665a4cf2dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.001.mat using Guid(e23e34f3d909c424e8af5b665a4cf2dc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e3ea7c84c6b76583f883e1a0ed8e0dba') in 0.0067609 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/Materials
-  artifactKey: Guid(09ee209745ef28b48bf9d0be4815eca6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/Materials using Guid(09ee209745ef28b48bf9d0be4815eca6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5bc487b59287564c042d0441198cb7d') in 0.0041947 seconds
+  Time since last request: 3101.211087 seconds.
+  path: Assets/MAIN STUFF/TEST SCENE/TEST SCENE.unity
+  artifactKey: Guid(de08e3f4fd5d53442b95e8347d677443) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAIN STUFF/TEST SCENE/TEST SCENE.unity using Guid(de08e3f4fd5d53442b95e8347d677443) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '317c598fd3abab26f7e832ff6559b8be') in 0.0402774 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.002.mat
-  artifactKey: Guid(f1993d72a3866e540837deed9ede5054) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.002.mat using Guid(f1993d72a3866e540837deed9ede5054) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf8566db180c47371a3b8aa652893a2b') in 0.0097805 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 48.083852 seconds.
+  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT 1.fbx
+  artifactKey: Guid(16583c79d85dbac4e9953f5a0942d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT 1.fbx using Guid(16583c79d85dbac4e9953f5a0942d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a0ae32f113b87098c696ca261826f283') in 0.2157192 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.006.mat
-  artifactKey: Guid(ddaad8f0be15031419dab3d3cf3d30a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.006.mat using Guid(ddaad8f0be15031419dab3d3cf3d30a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32c56eaff13d02a02abb5d82ef0e4d71') in 0.0071584 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.763641 seconds.
+  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT 1.fbx
+  artifactKey: Guid(16583c79d85dbac4e9953f5a0942d32d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT 1.fbx using Guid(16583c79d85dbac4e9953f5a0942d32d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82067b1b9bfac5e091dce51d58e244d9') in 0.0636267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.005.mat
-  artifactKey: Guid(023d2017b11b9e944b822fb8a5be8082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/Materials/MCmodelTXT@Running-Material.005.mat using Guid(023d2017b11b9e944b822fb8a5be8082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '552fbfd920788acd2606e228e4a6c8ae') in 0.0086334 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 129.716835 seconds.
+  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT 1.fbx
+  artifactKey: Guid(16583c79d85dbac4e9953f5a0942d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT 1.fbx using Guid(16583c79d85dbac4e9953f5a0942d32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '823cacb364a29df4f0213750240d3467') in 0.1137893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 60
 
 ========================================================================
 Received Import Request.
-  Time since last request: 16.850207 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1a73084650a0ba2ed5924fe5c961a6b') in 0.0488273 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+  Time since last request: 0.872762 seconds.
+  path: Assets/MAIN STUFF/3D MODELS/MCmodelTXT 1.fbx
+  artifactKey: Guid(16583c79d85dbac4e9953f5a0942d32d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/MAIN STUFF/3D MODELS/MCmodelTXT 1.fbx using Guid(16583c79d85dbac4e9953f5a0942d32d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '142f1d21ac4ad376f62f28e2af8f57a1') in 0.0220991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 61
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat
-  artifactKey: Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Outline.mat using Guid(f629c6e43dba4bf38cb74d8860150664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2de0b646ec3cdc606fb332c3cee13028') in 0.0222055 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat
-  artifactKey: Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF - Drop Shadow.mat using Guid(f2dcf029949142e28b974630369c8b4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9d4f5e68769b3fce9a426a1a6b8b173a') in 0.0350825 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
