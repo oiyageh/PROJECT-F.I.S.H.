@@ -26,8 +26,8 @@ public class SimpleInteractDialogue : MonoBehaviour
     public KeyCode interactKey = KeyCode.E;
     public float interactDistance = 3f;
 
-    //stores the players camera abd tracks when dialouge is shown
-    private Transform cam;
+    //stores the players position instead and tracks when dialouge is shown
+    private Transform player;
     private bool isShowing = false;
 
     //finds camera labeled main camera and stores position and direction
@@ -35,7 +35,7 @@ public class SimpleInteractDialogue : MonoBehaviour
     //sets the prompt text in ui
     void Start()
     {
-        cam = Camera.main.transform;
+        player = Camera.main.transform;
 
         dialogueUI.SetActive(false);
         promptUI.SetActive(false);
@@ -43,59 +43,33 @@ public class SimpleInteractDialogue : MonoBehaviour
         promptText.text = promptMessage;
     }
 
+   
+
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        float distance = Vector3.Distance(player.position, transform.position);
+
+        // If close enough and NOT already talking
+        if (distance <= interactDistance && !isShowing)
         {
-            ShowDialogue();
+            promptUI.SetActive(true);
+
+            if (Input.GetKeyDown(interactKey))
+            {
+                ShowDialogue();
+            }
+        }
+        else
+        {
+            promptUI.SetActive(false);
+        }
+
+        // Close dialogue with mouse click
+        if (isShowing && Input.GetMouseButtonDown(0))
+        {
+            HideDialogue();
         }
     }
-
-    //void Update()
-    //{
-
-    //    //creats a raycast and starts at camera position
-    //    //shoots where player is looking
-    //    Ray ray = new Ray(cam.position, cam.forward);
-    //    RaycastHit hit;
-
-    //    //PLAYER IS NOTTTT LOOKING AT OBJECT
-    //    bool isLookingAtObject = false;
-
-    //    //shoots ray foward and if it hits something thenn continuie
-    //    if (Physics.Raycast(ray, out hit, interactDistance))
-    //    {
-    //        //checks if the object was hit and if yes then player is looking at it
-    //        if (hit.transform != null)
-    //        {
-    //            isLookingAtObject = true;
-    //        }
-    //    }
-
-    //    // Show prompt only if looking AND not in dialogue
-    //    if (isLookingAtObject && !isShowing)
-    //    {
-    //        //turns prompt on
-    //        promptUI.SetActive(true);
-
-    //        //if press e then open dialouge 
-    //        if (Input.GetKeyDown(interactKey))
-    //        {
-    //            ShowDialogue();
-    //        }
-    //    }
-    //    //if not looking thern hide prompt
-    //    else
-    //    {
-    //        promptUI.SetActive(false);
-    //    }
-
-    //    // Close dialogue on click
-    //    if (isShowing && Input.GetMouseButtonDown(0))
-    //    {
-    //        HideDialogue();
-    //    }
-    //}
 
     //show dialouge ui
     void ShowDialogue()
