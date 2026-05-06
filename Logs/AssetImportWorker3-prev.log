@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola" at "2026-05-06T03:39:37.052517Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola" at "2026-05-06T13:05:17.1989404Z"
 Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32426 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-05-06T03:39:37Z
+Date: 2026-05-06T13:05:17Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/Omola/Documents/GitHub/PROJECTFISH
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-59966
+59278
 -licensingIpc
 LicenseClient-Omola
 -job-worker-count
@@ -67,14 +67,14 @@ C:/Users/Omola/Documents/GitHub/PROJECTFISH
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [27108]  Target information:
+Player connection [18780]  Target information:
 
-Player connection [27108]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 1706164902 [EditorId] 1706164902 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18780]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 3762208600 [EditorId] 3762208600 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27108]  * "[IP] 172.20.10.14 [Port] 0 [Flags] 2 [Guid] 1706164902 [EditorId] 1706164902 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [18780]  * "[IP] 172.20.10.14 [Port] 0 [Flags] 2 [Guid] 3762208600 [EditorId] 3762208600 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [27108] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [27108] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [18780] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18780] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -86,7 +86,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 4.32 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
@@ -102,46 +102,46 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006075 seconds.
-- Loaded All Assemblies, in  0.574 seconds
+Registered in 0.004699 seconds.
+- Loaded All Assemblies, in  0.434 seconds
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.404 seconds
-Domain Reload Profiling: 951ms
-	BeginReloadAssembly (247ms)
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 753ms
+	BeginReloadAssembly (166ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (82ms)
-	LoadAllAssembliesAndSetupDomain (170ms)
-		LoadAssemblies (226ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (150ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (166ms)
-			TypeCache.Refresh (165ms)
-				TypeCache.ScanAssembly (150ms)
+		AnalyzeDomain (141ms)
+			TypeCache.Refresh (140ms)
+				TypeCache.ScanAssembly (128ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (404ms)
+	FinalizeReload (332ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (367ms)
+		SetupLoadedEditorAssemblies (300ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (57ms)
+			InitializePlatformSupportModulesInManaged (47ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (82ms)
-			ProcessInitializeOnLoadAttributes (159ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (125ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -153,22 +153,22 @@ Begin MonoManager ReloadAssembly
 [Licensing::Module] Licensing is not yet initialized.
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              81dd538c36c3436d8d24874d78359ef6
-  Correlation Id:          00572c3be3a4bb8c97d9d618039d5b90
-  External correlation Id: 1752639623417908667
+  Session Id:              237ba6df93cd4bb7aacb16508cc800a2
+  Correlation Id:          42bd282d55f46869c81d98abd4167511
+  External correlation Id: 3502167231495370330
   Machine Id:              Vt39me9IhWDxxx0Srn0x/ASpSWo=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Omola" (connect: 0.00s, validation: 0.01s, handshake: 1.87s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola-notifications" at "2026-05-06T03:39:38.9310776Z"
-[Licensing::Module] Licensing Background thread has ended after 1.88s
-[Licensing::Module] Licensing is initialized (took 0.04s).
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Omola" (connect: 0.00s, validation: 0.00s, handshake: 1.55s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola-notifications" at "2026-05-06T13:05:18.7464816Z"
+[Licensing::Module] Licensing Background thread has ended after 1.55s
+[Licensing::Module] Licensing is initialized (took 0.02s).
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
   Id: 2475878297269-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.959 seconds
-Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.742 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Package Manager log level set to [2]
@@ -177,270 +177,54 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.606 seconds
-Domain Reload Profiling: 1543ms
-	BeginReloadAssembly (301ms)
+- Finished resetting the current domain, in  0.514 seconds
+Domain Reload Profiling: 1240ms
+	BeginReloadAssembly (216ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (4ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (63ms)
-	LoadAllAssembliesAndSetupDomain (526ms)
-		LoadAssemblies (489ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (414ms)
+		LoadAssemblies (381ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (160ms)
-				TypeCache.ScanAssembly (147ms)
-			BuildScriptInfoCaches (38ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (607ms)
+		AnalyzeDomain (162ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (119ms)
+			BuildScriptInfoCaches (28ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (515ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (486ms)
+		SetupLoadedEditorAssemblies (432ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (3ms)
 			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (158ms)
-			ProcessInitializeOnLoadAttributes (276ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (245ms)
 			ProcessInitializeOnLoadMethodAttributes (30ms)
-			AfterProcessingInitializeOnLoad (16ms)
+			AfterProcessingInitializeOnLoad (28ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 3934 unused Assets / (1.1 MB). Loaded Objects now: 4533.
-Memory consumption went from 95.1 MB to 93.9 MB.
-Total: 5.806000 ms (FindLiveObjects: 0.427100 ms CreateObjectMapping: 0.328100 ms MarkObjects: 4.139000 ms  DeleteObjects: 0.911000 ms)
+Unloading 3934 unused Assets / (1.8 MB). Loaded Objects now: 4533.
+Memory consumption went from 95.2 MB to 93.4 MB.
+Total: 7.178900 ms (FindLiveObjects: 0.608600 ms CreateObjectMapping: 0.252900 ms MarkObjects: 4.636000 ms  DeleteObjects: 1.680100 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10025.993349 seconds.
-  path: Assets/MAIN STUFF/TEST SCENE/MAP.prefab
-  artifactKey: Guid(8f4e6464001d53741bbae7f062598386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/TEST SCENE/MAP.prefab using Guid(8f4e6464001d53741bbae7f062598386) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ebf2c8b12fd9c23a914fa141d5f4510e') in 0.0750999 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
-
-========================================================================
-Received Import Request.
-  Time since last request: 1666.377923 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/HAIR_Base_color.png
-  artifactKey: Guid(7e9d152808a6a07419f2ad6586b4a5a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/HAIR_Base_color.png using Guid(7e9d152808a6a07419f2ad6586b4a5a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '84e61cd3e40fedc9fd279687adaff0bc') in 0.1135281 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/FACE_Metallic.png
-  artifactKey: Guid(cd8ba03a0edea21488dfab5d7d666e0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/FACE_Metallic.png using Guid(cd8ba03a0edea21488dfab5d7d666e0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dfbd6fa3d6d0a226cb3f3f63da98c457') in 0.0103571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT ARM_Height.png
-  artifactKey: Guid(e0b70138d9f112944ada3e97ea378549) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT ARM_Height.png using Guid(e0b70138d9f112944ada3e97ea378549) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0adc03520ba6c5b8c9387eee595921bd') in 0.0113935 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/FACE_Roughness.png
-  artifactKey: Guid(e9fbd53d36b6a4248a14cd1b8903ef16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/FACE_Roughness.png using Guid(e9fbd53d36b6a4248a14cd1b8903ef16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ea19d2ae2219a1bf6d7f5b9afb0f9b3') in 0.0099873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/JACKET_Height.png
-  artifactKey: Guid(5e69937faff087d4f843ab7c44fb572e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/JACKET_Height.png using Guid(5e69937faff087d4f843ab7c44fb572e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '969d590dc7bd0dede222af861765414d') in 0.0091525 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/ID BADGE_Normal_OpenGL.png
-  artifactKey: Guid(a9613288c654d92439b34db1c8f917d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/ID BADGE_Normal_OpenGL.png using Guid(a9613288c654d92439b34db1c8f917d6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5532f4bdbb648343a47d27f8316bdf80') in 0.0091813 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/JACKET_Normal_OpenGL.png
-  artifactKey: Guid(b6e5df3574e0349409797c6ff452539d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/JACKET_Normal_OpenGL.png using Guid(b6e5df3574e0349409797c6ff452539d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bc5eee4ec3a78f895805682242cfc29') in 0.0097345 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/LEFT LEG_Roughness.png
-  artifactKey: Guid(9f67073f88af4e04b948d8c322ffcf2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/LEFT LEG_Roughness.png using Guid(9f67073f88af4e04b948d8c322ffcf2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd4e5f0f4e4b1d4fbc7a70df7a1d837a') in 0.0084107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/HAIR_Height.png
-  artifactKey: Guid(e28c6bec57f7f6a49986b05ee232c2cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/HAIR_Height.png using Guid(e28c6bec57f7f6a49986b05ee232c2cc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b8ec7238d03fef834f3f4a18f715c52') in 0.0099638 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/LEFT ARM_Normal_OpenGL.png
-  artifactKey: Guid(f06dd631071200c428c19f890cf697f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/LEFT ARM_Normal_OpenGL.png using Guid(f06dd631071200c428c19f890cf697f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd40363327de68d734ff183049c98c3b3') in 0.0097156 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/HAIR_Normal_OpenGL.png
-  artifactKey: Guid(a250ad69e23ae72429e62b765f9447e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/HAIR_Normal_OpenGL.png using Guid(a250ad69e23ae72429e62b765f9447e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7b1d799f70db8b227868bd27090b25d') in 0.0095066 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/ID BADGE_Base_color.png
-  artifactKey: Guid(63d810bb0253abb4a9dd9017391e25cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/ID BADGE_Base_color.png using Guid(63d810bb0253abb4a9dd9017391e25cb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fed75f871b9b22480b613cecd315be69') in 0.0091917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/JACKET_Roughness.png
-  artifactKey: Guid(87054ff3e56b7d14a9a29c230311ef60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/JACKET_Roughness.png using Guid(87054ff3e56b7d14a9a29c230311ef60) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ecb958eaf04af026ffcae4d397afea73') in 0.008356 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000091 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/JACKET_Base_color.png
-  artifactKey: Guid(a6444303fb1a42f43aaa04766f8f219a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/JACKET_Base_color.png using Guid(a6444303fb1a42f43aaa04766f8f219a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '845fa20d516c67f3a0a7809a285a7910') in 0.0087736 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/ID BADGE_Roughness.png
-  artifactKey: Guid(3d0babd45f7fd024fbff1c8c104297a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/ID BADGE_Roughness.png using Guid(3d0babd45f7fd024fbff1c8c104297a9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5a13c6b59aee6069d3fad684652f6806') in 0.0100683 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/HAIR_Normal.png
-  artifactKey: Guid(760d3583353d2784fad0ed0f00bbb510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/HAIR_Normal.png using Guid(760d3583353d2784fad0ed0f00bbb510) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '94b275850aa97c7917ec3d369dda41b9') in 0.0079254 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/FACE_Height.png
-  artifactKey: Guid(6246a549354cb4547bb1c28119c20ab8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/FACE_Height.png using Guid(6246a549354cb4547bb1c28119c20ab8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75ef0ba06dd4db9e6594991793662637') in 0.0093068 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT ARM_Metallic.png
-  artifactKey: Guid(431aad28e93c11d44b29eaf3072d0ed6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT ARM_Metallic.png using Guid(431aad28e93c11d44b29eaf3072d0ed6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '847dc298a228a8a513f0b380dd424d0c') in 0.0094558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT LEG_Roughness.png
-  artifactKey: Guid(67b537a767adba84580b83a142cd0273) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT LEG_Roughness.png using Guid(67b537a767adba84580b83a142cd0273) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e9988d20d9fdf37a39c23575bf1dc0f2') in 0.0104165 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT LEG_Normal_OpenGL.png
-  artifactKey: Guid(296c6e1332b85fe4a9bea6a3511c2105) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT LEG_Normal_OpenGL.png using Guid(296c6e1332b85fe4a9bea6a3511c2105) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '08b4e72c89b751a7359a74aec445ab8f') in 0.010192 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT ARM_Normal_OpenGL.png
-  artifactKey: Guid(b4746615159ddd648887de0a587e4f42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/MCTEXTURES/RIGHT ARM_Normal_OpenGL.png using Guid(b4746615159ddd648887de0a587e4f42) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f558893f8e6a148bfc5956ed6db06ef') in 0.0084289 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.496455 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/ID BADGE_Base_color.png
-  artifactKey: Guid(8de89bde922fae34fa89f1c9c95b3190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/3D MODELS/ID BADGE_Base_color.png using Guid(8de89bde922fae34fa89f1c9c95b3190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d9c147d0b99d52c9e34ea3019a1fe9e') in 0.0146235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003450 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/LEFT LEG_Base_color.png
-  artifactKey: Guid(cfa830cc32814d747926fecf11c64e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/3D MODELS/LEFT LEG_Base_color.png using Guid(cfa830cc32814d747926fecf11c64e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f192c6bac1d4daf03ba79352e099c797') in 0.0079577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/RIGHT LEG_Base_color.png
-  artifactKey: Guid(3da93d5f4527acc478384656defa4a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MAIN STUFF/3D MODELS/RIGHT LEG_Base_color.png using Guid(3da93d5f4527acc478384656defa4a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7be83138bf5e89037bb40ceae5107f6c') in 0.0090762 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.948877 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/RIGHT ARM_Base_color.png
-  artifactKey: Guid(2ac7ffcb473b5854590fe51e01dfe923) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/RIGHT ARM_Base_color.png using Guid(2ac7ffcb473b5854590fe51e01dfe923) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50b77c05c9bf0c28df76395bcee8d1b8') in 0.0088523 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/LEFT ARM_Base_color.png
-  artifactKey: Guid(c4494e0286261894ea147b482fff67f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/LEFT ARM_Base_color.png using Guid(c4494e0286261894ea147b482fff67f8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68f7305a4aca46879d1b6913364fae0c') in 0.0110701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/MAIN STUFF/3D MODELS/RIGHT LEG_Base_color.png
-  artifactKey: Guid(3da93d5f4527acc478384656defa4a91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/MAIN STUFF/3D MODELS/RIGHT LEG_Base_color.png using Guid(3da93d5f4527acc478384656defa4a91) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '800a5baed435b220832bd5c0d0ef63a1') in 0.0067266 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 1831.858220 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfaeb9f0aafb94cde709daad8ff5b693') in 0.0952168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
