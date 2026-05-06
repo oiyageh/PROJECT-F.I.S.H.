@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/MAIN STUFF/TEST SCENE/TSHALLWAY2.unity
+- path: Assets/MAIN STUFF/TEST SCENE/TEST SCENE.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
