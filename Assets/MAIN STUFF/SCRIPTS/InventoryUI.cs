@@ -5,10 +5,7 @@ using TMPro;
 public class InventoryUI : MonoBehaviour
 {
     public GameObject slotPrefab;
-    public Transform inventoryPanel;
-
-    public Color selectedColor = Color.yellow;
-    public Color normalColor = Color.white;
+    public Transform slotParent;
 
     private GameObject[] slots;
 
@@ -19,20 +16,26 @@ public class InventoryUI : MonoBehaviour
 
     void Update()
     {
+        if (SimpleInventory.Instance == null)
+            return;
+
+        if (slots == null)
+            return;
+
         UpdateUI();
     }
 
     void CreateSlots()
     {
-        int size = SimpleInventory.Instance.hotbarSize;
+        int size = 5;
 
         slots = new GameObject[size];
 
         for (int i = 0; i < size; i++)
         {
-            GameObject slot = Instantiate(slotPrefab, inventoryPanel);
+            GameObject newSlot = Instantiate(slotPrefab, slotParent);
 
-            slots[i] = slot;
+            slots[i] = newSlot;
         }
     }
 
@@ -40,23 +43,36 @@ public class InventoryUI : MonoBehaviour
     {
         for (int i = 0; i < slots.Length; i++)
         {
-            Image bg = slots[i].GetComponent<Image>();
-            TMP_Text text = slots[i].GetComponentInChildren<TMP_Text>();
+            // Skip broken slots
+            if (slots[i] == null)
+                continue;
 
+            TMP_Text text = slots[i].GetComponentInChildren<TMP_Text>();
+            Image image = slots[i].GetComponent<Image>();
+
+            // Skip if components missing
+            if (text == null || image == null)
+            {
+                Debug.LogWarning("Slot prefab missing TMP_Text or Image component.");
+                continue;
+            }
+
+            // Highlight selected slot
             if (i == SimpleInventory.Instance.selectedSlot)
             {
-                bg.color = selectedColor;
+                image.color = Color.yellow;
             }
             else
             {
-                bg.color = normalColor;
+                image.color = Color.white;
             }
 
+            // Show inventory items
             if (i < SimpleInventory.Instance.inventory.Count)
             {
                 var item = SimpleInventory.Instance.inventory[i];
 
-                text.text = item.itemName + "\n" + item.usesRemaining;
+                text.text = item.itemName + "\nUses: " + item.usesRemaining;
             }
             else
             {

@@ -31,7 +31,7 @@ public class SimpleInventory : MonoBehaviour
 
     void Update()
     {
-        // Number keys for hotbar
+        // Select slots
         if (Input.GetKeyDown(KeyCode.Alpha1))
             selectedSlot = 0;
 
@@ -48,7 +48,7 @@ public class SimpleInventory : MonoBehaviour
             selectedSlot = 4;
 
         // Use selected item
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             UseSelectedItem();
         }
