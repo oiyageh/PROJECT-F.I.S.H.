@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[RequireComponent(typeof(CharacterController))]
 public class ThirdPersonController : MonoBehaviour
 {
     [Header("Movement")]
@@ -9,6 +10,7 @@ public class ThirdPersonController : MonoBehaviour
 
     [Header("References")]
     public Transform cameraTransform;
+    public Animator animator;
 
     private CharacterController controller;
 
@@ -23,6 +25,7 @@ public class ThirdPersonController : MonoBehaviour
     void Update()
     {
         Move();
+        HandleAnimations();
     }
 
     void Move()
@@ -49,5 +52,25 @@ public class ThirdPersonController : MonoBehaviour
 
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
+    }
+
+    void HandleAnimations()
+    {
+        // Get movement input
+        float h = Input.GetAxis("Horizontal");
+        float v = Input.GetAxis("Vertical");
+
+        // Check if player is moving
+        bool isMoving = new Vector2(h, v).magnitude > 0.1f;
+
+        // Check if sprinting
+        bool isRunning = isMoving && Input.GetKey(KeyCode.LeftShift);
+
+        // Animation values
+        float speedPercent = isRunning ? 1f : (isMoving ? 0.5f : 0f);
+
+        // Send to Animator
+        animator.SetFloat("Speed", speedPercent);
+        animator.SetBool("IsRunning", isRunning);
     }
 }

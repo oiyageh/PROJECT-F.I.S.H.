@@ -4,14 +4,15 @@ public class PickupItem : MonoBehaviour
 {
     public string itemName = "Potion";
     public int uses = 3;
+    public Sprite itemIcon;
 
-    bool playerNearby;
+    private bool playerInRange;
 
     void Update()
     {
-        if (playerNearby && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Input.GetKeyDown(KeyCode.E))
         {
-            SimpleInventory.Instance.AddItem(itemName, uses);
+            SimpleInventory.Instance.AddItem(itemName, uses, itemIcon);
 
             Destroy(gameObject);
         }
@@ -21,7 +22,7 @@ public class PickupItem : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerNearby = true;
+            playerInRange = true;
         }
     }
 
@@ -29,7 +30,7 @@ public class PickupItem : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerNearby = false;
+            playerInRange = false;
         }
     }
 }

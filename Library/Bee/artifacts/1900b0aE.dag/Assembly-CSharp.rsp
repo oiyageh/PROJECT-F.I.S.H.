@@ -434,8 +434,6 @@
 "Assets/MAIN STUFF/SCRIPTS/Billboard.cs"
 "Assets/MAIN STUFF/SCRIPTS/Door.cs"
 "Assets/MAIN STUFF/SCRIPTS/GameManager.cs"
-"Assets/MAIN STUFF/SCRIPTS/InventoryTester.cs"
-"Assets/MAIN STUFF/SCRIPTS/InventoryUI.cs"
 "Assets/MAIN STUFF/SCRIPTS/PickupItem.cs"
 "Assets/MAIN STUFF/SCRIPTS/PlayerPersist.cs"
 "Assets/MAIN STUFF/SCRIPTS/SimpleInteractDialogue.cs"
