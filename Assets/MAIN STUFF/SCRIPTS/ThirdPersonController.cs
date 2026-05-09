@@ -13,6 +13,14 @@ public class ThirdPersonController : MonoBehaviour
     public Animator animator;
 
     private CharacterController controller;
+    public float gravity = -9.81f;
+    private float verticalVelocity;
+
+
+    void LateUpdate()
+    {
+        transform.rotation = Quaternion.Euler(0f, transform.eulerAngles.y, 0f);
+    }
 
     void Start()
     {
@@ -20,11 +28,29 @@ public class ThirdPersonController : MonoBehaviour
 
         // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
+
+        controller = GetComponent<CharacterController>();
+        Cursor.lockState = CursorLockMode.Locked;
+
+        // Prevent physics from rotating player
+        controller.detectCollisions = true;
+    }
+
+    void ApplyGravity()
+    {
+        if (controller.isGrounded && verticalVelocity < 0)
+            verticalVelocity = -2f;
+
+        verticalVelocity += gravity * Time.deltaTime;
+
+        Vector3 gravityMove = Vector3.up * verticalVelocity;
+        controller.Move(gravityMove * Time.deltaTime);
     }
 
     void Update()
     {
         Move();
+        ApplyGravity();
         HandleAnimations();
     }
 
@@ -41,7 +67,12 @@ public class ThirdPersonController : MonoBehaviour
             float targetAngle = Mathf.Atan2(inputDir.x, inputDir.z) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
 
             // Smooth rotation
-            float angle = Mathf.LerpAngle(transform.eulerAngles.y, targetAngle, rotationSpeed * Time.deltaTime);
+            float angle = Mathf.SmoothDampAngle(
+              transform.eulerAngles.y,
+              targetAngle,
+              ref rotationSpeed,
+              0.1f
+ );
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
             // Move direction
@@ -49,7 +80,6 @@ public class ThirdPersonController : MonoBehaviour
 
             // Sprint
             float speed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
-
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
     }

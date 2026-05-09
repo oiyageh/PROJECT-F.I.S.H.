@@ -64,7 +64,7 @@ public class SimpleInventory : MonoBehaviour
             selectedSlot = 4;
 
         // Use selected item
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             UseSelectedItem();
         }

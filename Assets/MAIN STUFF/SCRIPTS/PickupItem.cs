@@ -2,18 +2,17 @@ using UnityEngine;
 
 public class PickupItem : MonoBehaviour
 {
-    public string itemName = "Potion";
-    public int uses = 3;
+    public string itemName = "Screwdriver";
+    public int uses = 1;
     public Sprite itemIcon;
 
-    private bool playerInRange;
+    private bool inRange;
 
     void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (inRange && Input.GetKeyDown(KeyCode.E))
         {
             SimpleInventory.Instance.AddItem(itemName, uses, itemIcon);
-
             Destroy(gameObject);
         }
     }
@@ -21,16 +20,12 @@ public class PickupItem : MonoBehaviour
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-        {
-            playerInRange = true;
-        }
+            inRange = true;
     }
 
     void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
-        {
-            playerInRange = false;
-        }
+            inRange = false;
     }
 }
