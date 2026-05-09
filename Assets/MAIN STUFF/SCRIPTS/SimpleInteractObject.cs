@@ -6,7 +6,7 @@ public class SimpleInteractObject : MonoBehaviour
     public bool isVent;
     public bool givesItem;
 
-    [Header("Item (if drawer)")]
+    [Header("Item")]
     public string itemName = "Screwdriver";
     public int uses = 1;
     public Sprite icon;
@@ -25,33 +25,38 @@ public class SimpleInteractObject : MonoBehaviour
 
     void Interact()
     {
-        // DRAWER / ITEM
+        // GIVE ITEM
         if (givesItem)
         {
             SimpleInventory.Instance.AddItem(itemName, uses, icon);
+
             Debug.Log("Picked up " + itemName);
+
+            Destroy(gameObject);
+
             return;
         }
 
-        // VENT
+        // OPEN VENT
         if (isVent)
         {
-            bool hasTool = false;
+            if (opened) return;
 
-            foreach (var item in SimpleInventory.Instance.inventory)
+            for (int i = 0; i < SimpleInventory.Instance.inventory.Count; i++)
             {
-                if (item.itemName == "Screwdriver")
-                    hasTool = true;
+                if (SimpleInventory.Instance.inventory[i].itemName == "Screwdriver")
+                {
+                    // REMOVE screwdriver after use
+                    SimpleInventory.Instance.inventory[i].usesRemaining--;
+
+                    if (SimpleInventory.Instance.inventory[i].usesRemaining <= 0)
+                    {
+                        SimpleInventory.Instance.inventory.RemoveAt(i);
+                    }
+                }
             }
 
-            if (!hasTool)
-            {
-                Debug.Log("Need screwdriver");
-                return;
-            }
-
-            Debug.Log("Vent opened!");
-            opened = true;
+            Debug.Log("Need screwdriver");
         }
     }
 }

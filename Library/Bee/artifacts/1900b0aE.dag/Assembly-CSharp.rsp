@@ -444,6 +444,7 @@
 "Assets/MAIN STUFF/SCRIPTS/SpawnManager.cs"
 "Assets/MAIN STUFF/SCRIPTS/ThirdPersonCamera.cs"
 "Assets/MAIN STUFF/SCRIPTS/ThirdPersonController.cs"
+"Assets/MAIN STUFF/SCRIPTS/VentTravel.cs"
 "Assets/MAIN STUFF/TEST STUFF/PixelateEffect.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
