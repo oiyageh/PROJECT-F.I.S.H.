@@ -737,12 +737,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 321206859}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.21825, y: 2.04518, z: 71.25392}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -12.59994, y: 1.2721901, z: -2.2575989}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1448748997}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &334384290
 GameObject:
@@ -1103,6 +1103,11 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403176734}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &423533736 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
+  m_PrefabInstance: {fileID: 715327818}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &545039541
 GameObject:
   m_ObjectHideFlags: 0
@@ -1583,23 +1588,23 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 1327744122}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.691158
+      value: 1.3999977
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.21
+      value: -0.79999995
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 51.12
+      value: -45
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
       propertyPath: m_LocalRotation.x
@@ -1607,7 +1612,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
       propertyPath: m_LocalRotation.z
@@ -1619,7 +1624,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 16583c79d85dbac4e9953f5a0942d32d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -2057,6 +2062,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800600515}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &830726854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 830726855}
+  m_Layer: 0
+  m_Name: VENTS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &830726855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 830726854}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -121.68, y: 11.08, z: 1.7}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1041918810}
+  - {fileID: 1193674856}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1019017380
 GameObject:
   m_ObjectHideFlags: 0
@@ -2226,8 +2264,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 9.568883, z: 1}
-  m_Center: {x: 0, y: -4.2844415, z: 0}
+  m_Size: {x: 1.3222629, y: 9.568883, z: 1.1640306}
+  m_Center: {x: -0.008578722, y: -4.2844415, z: 0.08201489}
 --- !u!23 &1041918808
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2293,13 +2331,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1041918805}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -32.60357, y: 9.54, z: 51.4236}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 89.07643, y: -1.54, z: 49.7236}
   m_LocalScale: {x: 3.4443, y: 1, z: 3.2634}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 690244004}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 830726855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1041918811
 MonoBehaviour:
@@ -2315,6 +2353,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VentTravel
   ventUnlocked: 0
   teleportPoint: {fileID: 100720908}
+  messageUI: {fileID: 1839823779}
+  messageText: {fileID: 1770797178}
+  needScrewdriverMessage: I think I need something to get into these...
+  unlockedMessage: Nice, I can get throught the vents now.
+  enterVentMessage: '
+
+'
+  messageDuration: 3
 --- !u!1 &1058214020
 GameObject:
   m_ObjectHideFlags: 0
@@ -2417,50 +2463,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1058214020}
   m_CullTransparentMesh: 1
---- !u!1 &1111336910
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1111336912}
-  - component: {fileID: 1111336911}
-  m_Layer: 0
-  m_Name: SPAWNMANAGER
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1111336911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1111336910}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b0c1f65a18c7ff14ea0122753c485dfd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::SpawnManager
---- !u!4 &1111336912
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1111336910}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.185, y: 2.5742, z: 77.37357}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1133005638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2720,6 +2722,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VentTravel
   ventUnlocked: 1
   teleportPoint: {fileID: 690244004}
+  messageUI: {fileID: 1839823779}
+  messageText: {fileID: 1770797178}
+  needScrewdriverMessage: Need a screwdriver
+  unlockedMessage: Vent unlocked
+  enterVentMessage: Break room
+  messageDuration: 2
 --- !u!114 &1193674852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2823,13 +2831,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193674850}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -121.68, y: 11.08, z: 1.7}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 3.4443, y: 1, z: 3.2634}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 100720908}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 830726855}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1195912283
 GameObject:
@@ -3122,13 +3130,18 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1316711481}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.61831, y: 0.77299, z: 73.51152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1448748997}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &1327744122 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7048cf4df1580b74cb19850a5475a538, type: 3}
+  m_PrefabInstance: {fileID: 1491840484}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1334809394
 GameObject:
   m_ObjectHideFlags: 0
@@ -3317,6 +3330,39 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396531773}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1448748996
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1448748997}
+  m_Layer: 0
+  m_Name: MANAGERS
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1448748997
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1448748996}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.61831, y: 0.77299, z: 73.51152}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 321206861}
+  - {fileID: 1316711483}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1491840484
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3371,7 +3417,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 7048cf4df1580b74cb19850a5475a538, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 423533736}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7048cf4df1580b74cb19850a5475a538, type: 3}
 --- !u!1 &1498875012
@@ -3799,7 +3848,7 @@ Transform:
   m_GameObject: {fileID: 1515208401}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.363, y: 2.513, z: 63.51152}
+  m_LocalPosition: {x: -9.363, y: 2.513, z: 60.51152}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4114,10 +4163,13 @@ MonoBehaviour:
   dialogueText: {fileID: 1770797178}
   promptUI: {fileID: 1629108152}
   promptText: {fileID: 1195912285}
-  message: The door is jammed...Something is holding it on the otherside.
+  message: 'The door is jammed...Something is holding it on the otherside.
+
+    I
+    should look around here, there must be a way out...'
   promptMessage: Press E to interact
   interactKey: 101
-  interactDistance: 10
+  interactDistance: 8
 --- !u!1 &1707084737
 GameObject:
   m_ObjectHideFlags: 0
@@ -4419,8 +4471,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1227046, y: 0.06131013, z: 0.09049992}
-  m_Center: {x: -0.011351873, y: -0.020655062, z: 0.03525012}
+  m_Size: {x: 0.1227046, y: 0.09943056, z: 0.09049992}
+  m_Center: {x: -0.011351873, y: -0.025464606, z: 0.03525012}
 --- !u!23 &1796227578
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5572,18 +5624,14 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 591404833}
-  - {fileID: 321206861}
-  - {fileID: 1111336912}
+  - {fileID: 5730297616914469687}
+  - {fileID: 1448748997}
   - {fileID: 1500528747}
-  - {fileID: 715327818}
   - {fileID: 1629108156}
   - {fileID: 1839823783}
-  - {fileID: 1316711483}
   - {fileID: 1515208406}
   - {fileID: 644762394}
   - {fileID: 177638101}
   - {fileID: 1796227580}
   - {fileID: 1491840484}
-  - {fileID: 1041918810}
-  - {fileID: 1193674856}
-  - {fileID: 5730297616914469687}
+  - {fileID: 830726855}

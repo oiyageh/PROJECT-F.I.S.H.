@@ -1,4 +1,6 @@
 using UnityEngine;
+using TMPro;
+using System.Collections;
 
 public class VentTravel : MonoBehaviour
 {
@@ -8,17 +10,38 @@ public class VentTravel : MonoBehaviour
     [Header("Teleport")]
     public Transform teleportPoint;
 
+    [Header("UI")]
+    public GameObject messageUI;
+    public TextMeshProUGUI messageText;
+
+    [Header("Messages")]
+    [TextArea]
+    public string needScrewdriverMessage = "Need a screwdriver";
+
+    [TextArea]
+    public string unlockedMessage = "Vent unlocked";
+
+    [TextArea]
+    public string enterVentMessage = "Entered vent";
+
+    public float messageDuration = 2f;
+
     private bool playerInside;
+    private bool showingMessage;
+
+    void Start()
+    {
+        if (messageUI != null)
+            messageUI.SetActive(false);
+    }
 
     void Update()
     {
         if (!playerInside)
             return;
 
-        // PRESS E
         if (Input.GetKeyDown(KeyCode.E))
         {
-            // UNLOCK VENT
             if (!ventUnlocked)
             {
                 TryUnlockVent();
@@ -41,13 +64,13 @@ public class VentTravel : MonoBehaviour
 
                 ventUnlocked = true;
 
-                Debug.Log("Vent unlocked!");
+                ShowMessage(unlockedMessage);
 
                 return;
             }
         }
 
-        Debug.Log("Need screwdriver");
+        ShowMessage(needScrewdriverMessage);
     }
 
     void EnterVent()
@@ -56,7 +79,30 @@ public class VentTravel : MonoBehaviour
 
         player.transform.position = teleportPoint.position;
 
-        Debug.Log("Entered vent");
+        ShowMessage(enterVentMessage);
+    }
+
+    void ShowMessage(string msg)
+    {
+        if (showingMessage)
+            return;
+
+        StartCoroutine(MessageRoutine(msg));
+    }
+
+    IEnumerator MessageRoutine(string msg)
+    {
+        showingMessage = true;
+
+        messageUI.SetActive(true);
+
+        messageText.text = msg;
+
+        yield return new WaitForSeconds(messageDuration);
+
+        messageUI.SetActive(false);
+
+        showingMessage = false;
     }
 
     void OnTriggerEnter(Collider other)
