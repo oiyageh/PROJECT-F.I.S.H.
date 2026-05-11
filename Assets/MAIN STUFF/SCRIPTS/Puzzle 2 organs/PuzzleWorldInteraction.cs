@@ -106,7 +106,7 @@ public class PuzzleWorldInteraction : MonoBehaviour
         // Move camera
         yield return StartCoroutine(MoveCamera(
             cameraViewPoint.position,
-            cameraViewPoint.rotation));
+            cameraViewPoint.rotation, 2f));
 
         // Fade in
         yield return StartCoroutine(Fade(0));
@@ -138,7 +138,7 @@ public class PuzzleWorldInteraction : MonoBehaviour
         // Restore camera
         yield return StartCoroutine(MoveCamera(
             originalCamPos,
-            originalCamRot));
+            originalCamRot, 2f));
 
         // Fade in
         yield return StartCoroutine(Fade(0));
@@ -150,25 +150,29 @@ public class PuzzleWorldInteraction : MonoBehaviour
         isTransitioning = false;
     }
 
-    IEnumerator MoveCamera(Vector3 targetPos, Quaternion targetRot)
+    IEnumerator MoveCamera(Vector3 targetPos, Quaternion targetRot, float duration)
     {
         float t = 0;
 
         Vector3 startPos = playerCamera.position;
         Quaternion startRot = playerCamera.rotation;
 
-        while (t < 1)
+        while (t < duration)
         {
-            t += Time.unscaledDeltaTime * zoomSpeed;
+            
 
             playerCamera.position =
-                Vector3.Lerp(startPos, targetPos, t);
+                Vector3.Lerp(startPos, targetPos, t/duration);
 
             playerCamera.rotation =
-                Quaternion.Slerp(startRot, targetRot, t);
+                Quaternion.Slerp(startRot, targetRot, t/duration);
 
+            t += Time.deltaTime;
+            Debug.Log("playing");
             yield return null;
         }
+        playerCamera.position = targetPos;
+        playerCamera.rotation = targetRot;
     }
 
     IEnumerator Fade(float targetAlpha)
