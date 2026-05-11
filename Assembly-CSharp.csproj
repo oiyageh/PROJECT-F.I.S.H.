@@ -59,8 +59,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\PickupItem.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganUIDrag.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\GameManager.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\PuzzleWorldInteraction.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
@@ -69,9 +71,12 @@
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Billboard.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SimpleInteractObject.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SimpleInteractDialogue.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\PlayerPersist.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Door.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\SpawnManager.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganUISlot.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ThirdPersonController.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SmoothFlicker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
@@ -79,7 +84,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganUIData.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ThirdPersonCamera.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\SpawnPoint.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\PushObjects.cs" />
@@ -90,14 +97,14 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ScreenFade.cs" />
-    <Compile Include="Assets\MAIN STUFF\SCRIPTS\USELESS\PlayerPersist.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\VentSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SimpleInventory.cs" />
-    <Compile Include="Assets\MAIN STUFF\SCRIPTS\USELESS\SpawnManager.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganPuzzleUIManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
   <ItemGroup>

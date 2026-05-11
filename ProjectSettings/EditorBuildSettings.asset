@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MAIN STUFF/TEST SCENE/TEST SCENE.unity
     guid: de08e3f4fd5d53442b95e8347d677443
+  - enabled: 1
+    path: Assets/MAIN STUFF/TEST SCENE/TESTROOM.unity
+    guid: f56a62ef8bb7d454f9900da6aa007d7d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

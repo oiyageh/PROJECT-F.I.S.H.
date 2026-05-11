@@ -163,4 +163,37 @@ public class SimpleInventory : MonoBehaviour
             }
         }
     }
+
+    // Check if player has item by name
+    public bool HasItem(string itemName)
+    {
+        foreach (InventoryItem item in inventory)
+        {
+            if (item.itemName == itemName && item.usesRemaining > 0)
+                return true;
+        }
+        return false;
+    }
+
+    // Remove 1 use of a specific item (optional for doors)
+    public bool UseItemByName(string itemName)
+    {
+        for (int i = 0; i < inventory.Count; i++)
+        {
+            if (inventory[i].itemName == itemName)
+            {
+                inventory[i].usesRemaining--;
+
+                if (inventory[i].usesRemaining <= 0)
+                {
+                    inventory.RemoveAt(i);
+                }
+
+                return true;
+            }
+        }
+        return false;
+    }
+
+
 }

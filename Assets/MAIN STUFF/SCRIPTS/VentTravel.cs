@@ -26,7 +26,7 @@ public class VentTravel : MonoBehaviour
 
     public float messageDuration = 2f;
 
-    private bool playerInside;
+    private GameObject currentPlayer;
     private bool showingMessage;
 
     void Start()
@@ -37,7 +37,7 @@ public class VentTravel : MonoBehaviour
 
     void Update()
     {
-        if (!playerInside)
+        if (currentPlayer == null)
             return;
 
         if (Input.GetKeyDown(KeyCode.E))
@@ -55,11 +55,14 @@ public class VentTravel : MonoBehaviour
 
     void TryUnlockVent()
     {
+        if (SimpleInventory.Instance == null)
+            return;
+
         for (int i = 0; i < SimpleInventory.Instance.inventory.Count; i++)
         {
-            if (SimpleInventory.Instance.inventory[i].itemName == "Screwdriver")
+            if (SimpleInventory.Instance.inventory[i].itemName.ToLower() == "screwdriver")
             {
-                // remove screwdriver
+                // Remove screwdriver
                 SimpleInventory.Instance.inventory.RemoveAt(i);
 
                 ventUnlocked = true;
@@ -68,6 +71,8 @@ public class VentTravel : MonoBehaviour
 
                 return;
             }
+
+            Debug.Log(SimpleInventory.Instance.inventory[i].itemName);
         }
 
         ShowMessage(needScrewdriverMessage);
@@ -75,12 +80,44 @@ public class VentTravel : MonoBehaviour
 
     void EnterVent()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (currentPlayer == null || teleportPoint == null)
+            return;
 
-        player.transform.position = teleportPoint.position;
+        CharacterController controller =
+            currentPlayer.GetComponent<CharacterController>();
+
+        // Disable movement briefly
+        MonoBehaviour movementScript =
+            currentPlayer.GetComponent<ThirdPersonController>();
+
+        if (movementScript != null)
+        {
+            movementScript.enabled = false;
+        }
+
+        // Teleport player
+        currentPlayer.transform.position =
+            teleportPoint.position + Vector3.up * 0.2f;
+
+        currentPlayer.transform.rotation =
+            teleportPoint.rotation;
+
+        // Re-enable movement after short delay
+        StartCoroutine(ReEnableMovement(movementScript));
 
         ShowMessage(enterVentMessage);
     }
+
+    IEnumerator ReEnableMovement(MonoBehaviour movementScript)
+    {
+        yield return new WaitForSeconds(0.1f);
+
+        if (movementScript != null)
+        {
+            movementScript.enabled = true;
+        }
+    }
+
 
     void ShowMessage(string msg)
     {
@@ -94,13 +131,16 @@ public class VentTravel : MonoBehaviour
     {
         showingMessage = true;
 
-        messageUI.SetActive(true);
+        if (messageUI != null)
+            messageUI.SetActive(true);
 
-        messageText.text = msg;
+        if (messageText != null)
+            messageText.text = msg;
 
         yield return new WaitForSeconds(messageDuration);
 
-        messageUI.SetActive(false);
+        if (messageUI != null)
+            messageUI.SetActive(false);
 
         showingMessage = false;
     }
@@ -109,7 +149,7 @@ public class VentTravel : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerInside = true;
+            currentPlayer = other.gameObject;
         }
     }
 
@@ -117,7 +157,7 @@ public class VentTravel : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            playerInside = false;
+            currentPlayer = null;
         }
     }
 }
