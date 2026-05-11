@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Door
   sceneToLoad: TEST SCENE
-  spawnPointName: BreakRoomSpawnPoint
+  spawnPointName: BreakRoom
   isBlocked: 0
   requiredItem: 
   doorID: TESTVENT

@@ -37,12 +37,25 @@ public class SimpleInventory : MonoBehaviour
 
     void Awake()
     {
+        // Prevent duplicates
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
+
+        // Keep through scene loads
+        DontDestroyOnLoad(gameObject);
     }
 
     void Start()
     {
-        CreateSlots();
+        if (slots == null || slots.Length == 0)
+        {
+            CreateSlots();
+        }
     }
 
     void Update()

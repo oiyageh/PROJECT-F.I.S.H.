@@ -10,19 +10,25 @@ public class GameManager : MonoBehaviour
 
     private HashSet<string> unlockedDoors = new HashSet<string>();
 
+    private void Start()
+    {
+        Debug.Log("GameManager alive");
+    }
+
+    public Dictionary<string, List<string>> savedPuzzleParts =
+        new Dictionary<string, List<string>>();
+
+
     private void Awake()
     {
-        // If another GameManager already exists, destroy this one
         if (Instance != null && Instance != this)
         {
             Destroy(gameObject);
             return;
         }
 
-        // Set singleton
         Instance = this;
 
-        // Persist between scenes
         DontDestroyOnLoad(gameObject);
     }
 
@@ -35,4 +41,6 @@ public class GameManager : MonoBehaviour
     {
         return unlockedDoors.Contains(doorID);
     }
+
+
 }

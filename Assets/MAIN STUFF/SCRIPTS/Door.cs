@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using TMPro;
 
 public class Door : MonoBehaviour
 {
@@ -14,10 +15,22 @@ public class Door : MonoBehaviour
     [Header("Persistence")]
     public string doorID;
 
+    [Header("UI")]
+    public GameObject lockedMessageUI;
+    public TextMeshProUGUI lockedMessageText;
+
+    [Header("Messages")]
+    [TextArea]
+    public string lockedMessage = "The door is locked.";
+
     private bool playerInRange;
 
     void Start()
     {
+        // Hide message at start
+        if (lockedMessageUI != null)
+            lockedMessageUI.SetActive(false);
+
         // If already unlocked, permanently unlock it
         if (!string.IsNullOrEmpty(doorID) && GameManager.Instance.IsDoorUnlocked(doorID))
         {
@@ -40,6 +53,17 @@ public class Door : MonoBehaviour
         {
             if (!SimpleInventory.Instance.HasItem(requiredItem))
             {
+                // Show locked text
+                if (lockedMessageUI != null)
+                {
+                    lockedMessageUI.SetActive(true);
+                }
+
+                if (lockedMessageText != null)
+                {
+                    lockedMessageText.text = lockedMessage;
+                }
+
                 Debug.Log("You need " + requiredItem);
                 return;
             }
@@ -49,6 +73,10 @@ public class Door : MonoBehaviour
 
             // unlock permanently
             isBlocked = false;
+
+            // Hide locked message once unlocked
+            if (lockedMessageUI != null)
+                lockedMessageUI.SetActive(false);
 
             if (!string.IsNullOrEmpty(doorID))
             {
@@ -69,6 +97,12 @@ public class Door : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
+        {
             playerInRange = false;
+
+            // Hide message when leaving door
+            if (lockedMessageUI != null)
+                lockedMessageUI.SetActive(false);
+        }
     }
 }

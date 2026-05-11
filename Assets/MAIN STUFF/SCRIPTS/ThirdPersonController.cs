@@ -6,45 +6,22 @@ public class ThirdPersonController : MonoBehaviour
     [Header("Movement")]
     public float walkSpeed = 4f;
     public float sprintSpeed = 7f;
-    public float rotationSpeed = 10f;
+    public float rotationSpeedSmooth = 10f;
 
     [Header("References")]
-    public Transform cameraTransform;
     public Animator animator;
 
-    private CharacterController controller;
+    [Header("Gravity")]
     public float gravity = -9.81f;
     private float verticalVelocity;
 
-
-    void LateUpdate()
-    {
-        transform.rotation = Quaternion.Euler(0f, transform.eulerAngles.y, 0f);
-    }
+    private CharacterController controller;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
 
-        // Lock cursor
         Cursor.lockState = CursorLockMode.Locked;
-
-        controller = GetComponent<CharacterController>();
-        Cursor.lockState = CursorLockMode.Locked;
-
-        // Prevent physics from rotating player
-        controller.detectCollisions = true;
-    }
-
-    void ApplyGravity()
-    {
-        if (controller.isGrounded && verticalVelocity < 0)
-            verticalVelocity = -2f;
-
-        verticalVelocity += gravity * Time.deltaTime;
-
-        Vector3 gravityMove = Vector3.up * verticalVelocity;
-        controller.Move(gravityMove * Time.deltaTime);
     }
 
     void Update()
@@ -59,47 +36,60 @@ public class ThirdPersonController : MonoBehaviour
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
-        Vector3 inputDir = new Vector3(h, 0f, v).normalized;
+        // Camera-relative movement (Cinemachine uses Main Camera)
+        Transform cam = Camera.main.transform;
 
-        if (inputDir.magnitude >= 0.1f)
+        Vector3 forward = cam.forward;
+        Vector3 right = cam.right;
+
+        forward.y = 0f;
+        right.y = 0f;
+
+        forward.Normalize();
+        right.Normalize();
+
+        Vector3 moveDir = forward * v + right * h;
+
+        if (moveDir.magnitude >= 0.1f)
         {
-            // Camera-relative direction
-            float targetAngle = Mathf.Atan2(inputDir.x, inputDir.z) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
+            // Rotate player toward movement direction
+            float targetAngle = Mathf.Atan2(moveDir.x, moveDir.z) * Mathf.Rad2Deg;
 
-            // Smooth rotation
-            float angle = Mathf.SmoothDampAngle(
-              transform.eulerAngles.y,
-              targetAngle,
-              ref rotationSpeed,
-              0.1f
- );
+            float angle = Mathf.LerpAngle(
+                transform.eulerAngles.y,
+                targetAngle,
+                Time.deltaTime * rotationSpeedSmooth
+            );
+
             transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-            // Move direction
-            Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-
-            // Sprint
+            // Movement speed
             float speed = Input.GetKey(KeyCode.LeftShift) ? sprintSpeed : walkSpeed;
+
             controller.Move(moveDir.normalized * speed * Time.deltaTime);
         }
     }
 
+    void ApplyGravity()
+    {
+        if (controller.isGrounded && verticalVelocity < 0)
+            verticalVelocity = -2f;
+
+        verticalVelocity += gravity * Time.deltaTime;
+
+        controller.Move(Vector3.up * verticalVelocity * Time.deltaTime);
+    }
+
     void HandleAnimations()
     {
-        // Get movement input
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
 
-        // Check if player is moving
         bool isMoving = new Vector2(h, v).magnitude > 0.1f;
-
-        // Check if sprinting
         bool isRunning = isMoving && Input.GetKey(KeyCode.LeftShift);
 
-        // Animation values
         float speedPercent = isRunning ? 1f : (isMoving ? 0.5f : 0f);
 
-        // Send to Animator
         animator.SetFloat("Speed", speedPercent);
         animator.SetBool("IsRunning", isRunning);
     }

@@ -3,107 +3,64 @@ using TMPro;
 
 public class SimpleInteractObject : MonoBehaviour
 {
-    [Header("Type")]
-    public bool isVent;
-    public bool givesItem;
-
-    [Header("Vent Settings")]
-    public bool alreadyOpen;
-    public VentSystem ventSystem;
-
     [Header("Item")]
     public string itemName = "Screwdriver";
     public int uses = 1;
     public Sprite icon;
 
+    [Header("UI")]
+    public GameObject promptUI;
+    public TextMeshProUGUI promptText;
+
+    [TextArea]
+    public string pickupMessage = "Press E to pick up item";
 
     private bool playerInRange;
-    private GameObject player;
-    private bool opened;
-
-    void Start()
-    {
-        
-    }
 
     void Update()
     {
         if (!playerInRange) return;
 
-       
-
         if (Input.GetKeyDown(KeyCode.E))
         {
-            Interact();
+            PickupItem();
         }
     }
 
-    void Interact()
+    void PickupItem()
     {
-        // PICKUP ITEM
-        if (givesItem)
-        {
-            SimpleInventory.Instance.AddItem(itemName, uses, icon);
-            Destroy(gameObject);
-            return;
-        }
+        SimpleInventory.Instance.AddItem(itemName, uses, icon);
 
-        if (isVent)
-        {
-            // If vent is already opened OR pre-opened
-            if (alreadyOpen || opened)
-            {
-                if (ventSystem != null)
-                    ventSystem.UseVent(player);
+        if (promptUI != null)
+            promptUI.SetActive(false);
 
-                return;
-            }
-
-            // Try use screwdriver
-            for (int i = 0; i < SimpleInventory.Instance.inventory.Count; i++)
-            {
-                var item = SimpleInventory.Instance.inventory[i];
-
-                if (item.itemName.ToLower() == "screwdriver")
-                {
-                    item.usesRemaining--;
-
-                    if (item.usesRemaining <= 0)
-                        SimpleInventory.Instance.inventory.RemoveAt(i);
-
-                    opened = true;
-
-                    Debug.Log("Vent permanently opened");
-
-                    // OPTIONAL: instantly allow travel after opening
-                    if (ventSystem != null)
-                        ventSystem.UseVent(player);
-
-                    return;
-                }
-            }
-
-            Debug.Log("Need screwdriver");
-        }
+        Destroy(gameObject);
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player"))
+        if (!other.CompareTag("Player")) return;
+
+        playerInRange = true;
+
+        if (promptUI != null)
         {
-            playerInRange = true;
-            player = other.gameObject;
+            promptUI.SetActive(true);
+
+            if (promptText != null)
+            {
+                promptText.text = itemName + "\n" + pickupMessage;
+            }
         }
     }
 
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player"))
-        {
-            playerInRange = false;
-            player = null;
+        if (!other.CompareTag("Player")) return;
 
-            
-        }
+        playerInRange = false;
+
+        if (promptUI != null)
+            promptUI.SetActive(false);
     }
 }

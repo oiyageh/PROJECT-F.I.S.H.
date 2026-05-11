@@ -9,6 +9,16 @@
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.9f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.unity.cinemachine@3.1.6": {
+      "name": "com.unity.cinemachine",
+      "displayName": "Cinemachine",
+      "resolvedPath": "C:\\Users\\Omola\\OneDrive\\Documents\\PROJECT-FISH\\Library\\PackageCache\\com.unity.cinemachine@285f38545487",
+      "fingerprint": "285f385454873b7d4509f804a9b4c840e834066a",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "3.1.6",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.collab-proxy@2.11.3": {
       "name": "com.unity.collab-proxy",
       "displayName": "Unity Version Control",
@@ -426,6 +436,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.splines@2.8.2": {
+      "name": "com.unity.splines",
+      "displayName": "Splines",
+      "resolvedPath": "C:\\Users\\Omola\\OneDrive\\Documents\\PROJECT-FISH\\Library\\PackageCache\\com.unity.splines@1cb7d86fc7ff",
+      "fingerprint": "1cb7d86fc7ffee63824ca302b2b8982178eeea83",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "2.8.2",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.settings-manager@2.1.1": {
       "name": "com.unity.settings-manager",
       "displayName": "Settings Manager",
@@ -444,6 +464,16 @@
       "editorCompatibility": "2019.4.0a1",
       "version": "2.0.5",
       "source": "builtin",
+      "testable": false
+    },
+    "com.unity.mathematics@1.3.3": {
+      "name": "com.unity.mathematics",
+      "displayName": "Mathematics",
+      "resolvedPath": "C:\\Users\\Omola\\OneDrive\\Documents\\PROJECT-FISH\\Library\\PackageCache\\com.unity.mathematics@19a9377c4ffa",
+      "fingerprint": "19a9377c4ffa59370edad3e6a34e4445529badde",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "1.3.3",
+      "source": "registry",
       "testable": false
     }
   }
