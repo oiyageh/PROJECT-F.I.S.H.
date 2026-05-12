@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MAIN STUFF/TEST SCENE/TESTROOM.unity
     guid: f56a62ef8bb7d454f9900da6aa007d7d
+  - enabled: 1
+    path: Assets/MAIN STUFF/TEST SCENE/Hallway1.unity
+    guid: c62ec9d348cab70449e4a85fcf4b6894
+  - enabled: 1
+    path: Assets/MAIN STUFF/TEST SCENE/StorageTEST.unity
+    guid: 279ffd90b7da2b04ea4b1660048d1039
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

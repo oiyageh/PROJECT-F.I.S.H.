@@ -5,31 +5,46 @@ public class SpawnManager : MonoBehaviour
 {
     IEnumerator Start()
     {
-        yield return null; // wait for scene to load
+        // Wait 1 frame for scene objects to load
+        yield return null;
 
+        // Find player
         GameObject player = GameObject.FindGameObjectWithTag("Player");
-        if (player == null) yield break;
 
-        string spawnName = GameManager.Instance.spawnPointName;
-        if (string.IsNullOrEmpty(spawnName)) yield break;
-
-        GameObject spawnPoint = GameObject.Find(spawnName);
-        if (spawnPoint == null) yield break;
-
-        // Handle CharacterController properly
-        CharacterController cc = player.GetComponent<CharacterController>();
-        if (cc != null) cc.enabled = false;
-
-        Vector3 pos = spawnPoint.transform.position + Vector3.up * 2f;
-        player.transform.position = pos;
-
-        // Snap to ground
-        RaycastHit hit;
-        if (Physics.Raycast(player.transform.position, Vector3.down, out hit, 5f))
+        if (player == null)
         {
-            player.transform.position = hit.point;
+            Debug.LogWarning("No player found");
+            yield break;
         }
 
-        if (cc != null) cc.enabled = true;
+        // Get spawn point name from GameManager
+        string spawnName = GameManager.Instance.spawnPointName;
+
+        if (string.IsNullOrEmpty(spawnName))
+        {
+            yield break;
+        }
+
+        // Find spawn point object
+        GameObject spawnPoint = GameObject.Find(spawnName);
+
+        if (spawnPoint == null)
+        {
+            Debug.LogWarning("Spawn point not found: " + spawnName);
+            yield break;
+        }
+
+        // Disable CharacterController before moving
+        CharacterController cc = player.GetComponent<CharacterController>();
+
+        if (cc != null)
+            cc.enabled = false;
+
+        // Move player
+        player.transform.position = spawnPoint.transform.position;
+
+        // Re-enable controller
+        if (cc != null)
+            cc.enabled = true;
     }
 }
