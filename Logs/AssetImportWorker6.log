@@ -1,0 +1,1954 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola" at "2026-05-13T01:05:53.3504127Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32426 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-05-13T01:05:53Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Omola/Documents/GitHub/PROJECTFISH
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+64332
+-licensingIpc
+LicenseClient-Omola
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Omola/Documents/GitHub/PROJECTFISH
+C:/Users/Omola/Documents/GitHub/PROJECTFISH
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [30384]  Target information:
+
+Player connection [30384]  * "[IP] 10.5.0.2 [Port] 0 [Flags] 2 [Guid] 2337870575 [EditorId] 2337870575 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30384]  * "[IP] 172.20.10.14 [Port] 0 [Flags] 2 [Guid] 2337870575 [EditorId] 2337870575 [Version] 1048832 [Id] WindowsEditor(7,LINK) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [30384] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [30384] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.9f1 (7a9955a4f2fa)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Omola/Documents/GitHub/PROJECTFISH/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 5060 Ti (ID=0x2d04)
+    Vendor:   NVIDIA
+    VRAM:     15962 MB
+    Driver:   32.0.15.8195
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005348 seconds.
+- Loaded All Assemblies, in  0.394 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.335 seconds
+Domain Reload Profiling: 720ms
+	BeginReloadAssembly (137ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (141ms)
+		LoadAssemblies (127ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (138ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (123ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (336ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              303a90c5129c4e4b80e32cfcc388cad3
+  Correlation Id:          4144148266400a7e727affa603d21bd5
+  External correlation Id: 3944759321754535468
+  Machine Id:              Vt39me9IhWDxxx0Srn0x/ASpSWo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Omola" (connect: 0.00s, validation: 0.00s, handshake: 1.57s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Omola-notifications" at "2026-05-13T01:05:54.9200965Z"
+[Licensing::Module] Licensing Background thread has ended after 1.57s
+[Licensing::Module] Licensing is initialized (took 0.08s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2475878297269-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.777 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.66 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.532 seconds
+Domain Reload Profiling: 1296ms
+	BeginReloadAssembly (260ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (416ms)
+		LoadAssemblies (359ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (121ms)
+				TypeCache.ScanAssembly (111ms)
+			BuildScriptInfoCaches (31ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (532ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (444ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 1.79 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4501 unused Assets / (1.4 MB). Loaded Objects now: 5110.
+Memory consumption went from 100.0 MB to 98.6 MB.
+Total: 6.284400 ms (FindLiveObjects: 0.483400 ms CreateObjectMapping: 0.321400 ms MarkObjects: 4.445800 ms  DeleteObjects: 1.032600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 34227.978989 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_7.png
+  artifactKey: Guid(d08a98778b0694e88bd91d91ddb49879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_7.png using Guid(d08a98778b0694e88bd91d91ddb49879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32d7485d255cd876c5a0fc1f0cb11c9e') in 0.2113033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_5.png
+  artifactKey: Guid(e0ee635d811304a9faf27d6f6c92ad6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_5.png using Guid(e0ee635d811304a9faf27d6f6c92ad6f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1be40817250b1ac1555bb6527f0dd1f3') in 0.093288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/wood/wood_1.png
+  artifactKey: Guid(3e26f9616fac94efea0adb02df9bc6a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/wood/wood_1.png using Guid(3e26f9616fac94efea0adb02df9bc6a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'affad4a7bbe6906121f2d52e5fcbb87c') in 0.0443585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/QuickOutline/Readme.txt
+  artifactKey: Guid(5933bfd39d7a5b843a0ed821f85bca19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/QuickOutline/Readme.txt using Guid(5933bfd39d7a5b843a0ed821f85bca19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67140f48ca4259a04d00dfb5b7308314') in 0.007529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/QuickOutline/Resources/Materials/OutlineMask.mat
+  artifactKey: Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/QuickOutline/Resources/Materials/OutlineMask.mat using Guid(106f3ff43a17d4967a2b64c7a92e49ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50ef372855b83bfa15e9b424866c4dbb') in 0.0314442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Numb - Ambient Music/Just One Moment (by juanjo_sound).wav
+  artifactKey: Guid(cb0caae7c2087a248ab9756b180cb9a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/Just One Moment (by juanjo_sound).wav using Guid(cb0caae7c2087a248ab9756b180cb9a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8477b4c8a11c290ff84fe77e084ac17a') in 0.027605 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Numb - Ambient Music/LOOP Core Memories (by juanjo_sound).wav
+  artifactKey: Guid(5348f2a4ef4d9bf49a6a8c2ed51bef95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/LOOP Core Memories (by juanjo_sound).wav using Guid(5348f2a4ef4d9bf49a6a8c2ed51bef95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6b31ffd6a7d400c48b4725ffcfd31ff') in 0.0211821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Numb - Ambient Music/Numb 2 (by juanjo_sound).wav
+  artifactKey: Guid(e7cfe874ad3e82a479f3b180409bff3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/Numb 2 (by juanjo_sound).wav using Guid(e7cfe874ad3e82a479f3b180409bff3c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eb9dafe0c189712d870805d78334034') in 0.0207057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/swamp/swamp_5.png
+  artifactKey: Guid(9618f5885b1664aafb7c3d6991b9e88b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/swamp/swamp_5.png using Guid(9618f5885b1664aafb7c3d6991b9e88b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '72f33911a17c2d6f1e939c0b8e143262') in 0.0389989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/bamboo/bamboo_6.png
+  artifactKey: Guid(ddbd390dc1eb04bbca9157ae8d6b0b7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/bamboo/bamboo_6.png using Guid(ddbd390dc1eb04bbca9157ae8d6b0b7f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fce7260c04f1afde5a14dc7ea5fddd45') in 0.0392206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Dreamcore Music/5 LOOP Dreamcore Tone 2 (by juanjo_sound).wav
+  artifactKey: Guid(7152939cca89a464c8b5751e3e215697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Dreamcore Music/5 LOOP Dreamcore Tone 2 (by juanjo_sound).wav using Guid(7152939cca89a464c8b5751e3e215697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '400507ecc39181676550f0a96f386cdb') in 0.0235613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_01.mat
+  artifactKey: Guid(141d9d6ca43b6c843965491604c6deff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_01.mat using Guid(141d9d6ca43b6c843965491604c6deff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3715f5ef714a2f64f5a7776a745c16a5') in 0.0085094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Alstra Infinite
+  artifactKey: Guid(00fc06f498d415d4e94ce42be18a1117) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alstra Infinite using Guid(00fc06f498d415d4e94ce42be18a1117) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1387c2cd99eb98efd476250733abea23') in 0.0047151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/The Backrooms Music Vol. 1/juanjo_ sound - song of entities.wav
+  artifactKey: Guid(7362ac0c9006d2243a29bb672515ef04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/The Backrooms Music Vol. 1/juanjo_ sound - song of entities.wav using Guid(7362ac0c9006d2243a29bb672515ef04) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c319f7d91dca7fddc0c764bc6e3c803') in 0.0222783 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack
+  artifactKey: Guid(6a37975d93927f540825d088e5b091d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alstra Infinite/Fish - PolyPack using Guid(6a37975d93927f540825d088e5b091d4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23a96f24f51931907e8ed11d7efbc957') in 0.0041218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/The Backrooms Music Vol. 1
+  artifactKey: Guid(b4839d39955ac7541b960682b519edf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/The Backrooms Music Vol. 1 using Guid(b4839d39955ac7541b960682b519edf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '55ff7aa2d6ace175d8a3aed5ccb17e07') in 0.00391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Texture/PolyPackFish.png
+  artifactKey: Guid(046f0687a8e053648949194a16f36c33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Texture/PolyPackFish.png using Guid(046f0687a8e053648949194a16f36c33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '68285e7721f3aea2dc4767157f28781a') in 0.0102881 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Numb - Ambient Music
+  artifactKey: Guid(94857f55b5808a740ae9f1a250f5a5fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music using Guid(94857f55b5808a740ae9f1a250f5a5fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f82873950e18a5388d021787ab8baad5') in 0.0039894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV4.prefab
+  artifactKey: Guid(a05072560c3476b4cb8dddf22f697392) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV4.prefab using Guid(a05072560c3476b4cb8dddf22f697392) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f7bbc40085c6f15ca603147321fc244') in 0.0349196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/The Backrooms Music Vol. 1/juanjo_ sound - crop circles.wav
+  artifactKey: Guid(901ddfa1da5a4824bb17c52918f893d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/The Backrooms Music Vol. 1/juanjo_ sound - crop circles.wav using Guid(901ddfa1da5a4824bb17c52918f893d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a55772780a2a9667de382887d04cd0b1') in 0.0200384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/concrete
+  artifactKey: Guid(88e98d0e82fd04031a62a0e700579eee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/concrete using Guid(88e98d0e82fd04031a62a0e700579eee) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e11e65c87838dae35d82e282d4d4c480') in 0.0042216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Dreamcore Music/3 Dreamcore Lost (by juanjo_sound).wav
+  artifactKey: Guid(f57b78681af20ae46832ce7e785bb8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Dreamcore Music/3 Dreamcore Lost (by juanjo_sound).wav using Guid(f57b78681af20ae46832ce7e785bb8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c6f67083d6dbd78906777bcf9568f6ff') in 0.0212693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Numb - Ambient Music/LOOP Numb (by juanjo_sound).wav
+  artifactKey: Guid(553ea6e58af08d6488076e51fd25f56d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/LOOP Numb (by juanjo_sound).wav using Guid(553ea6e58af08d6488076e51fd25f56d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '089654382c7d90a77e323abb7af1b125') in 0.0240531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Dreamcore Music/4 LOOP Dreamcore Oddity (by juanjo_sound).wav
+  artifactKey: Guid(62ee6fe3f089ea548ba3bcc2e9ae01c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Dreamcore Music/4 LOOP Dreamcore Oddity (by juanjo_sound).wav using Guid(62ee6fe3f089ea548ba3bcc2e9ae01c1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f828f84e67ebaabf696fc5ed0a521de') in 0.0235124 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Info/Scripts/Editor
+  artifactKey: Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IgniteCoders/Simple Water Shader/Info/Scripts/Editor using Guid(3ad9b87dffba344c89909c6d1b1c17e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d6e9f5bc57b232fe1e16610ee105fba') in 0.0040994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/The Backrooms Music Vol. 1/juanjo_ sound - The Bluerooms.wav
+  artifactKey: Guid(31b85da6e407dc548837bfa3cbb2d429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/The Backrooms Music Vol. 1/juanjo_ sound - The Bluerooms.wav using Guid(31b85da6e407dc548837bfa3cbb2d429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89836c959b0044e424ab8142ab1ef76b') in 0.0229402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/asphalt/asphalt_1.png
+  artifactKey: Guid(f97088261c3a64b2e8e5b1242d7db59d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/asphalt/asphalt_1.png using Guid(f97088261c3a64b2e8e5b1242d7db59d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63869791552c8a99422fdbb3ec525801') in 0.04364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_3.png
+  artifactKey: Guid(7125146563a3d4e8f86981ff77498c45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_3.png using Guid(7125146563a3d4e8f86981ff77498c45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4ad83521101c2e08840259e271ab051') in 0.0396384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Scene
+  artifactKey: Guid(565fa5a769ec1914db45afdba396f7b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Scene using Guid(565fa5a769ec1914db45afdba396f7b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6426b90b156d9ef1332ebea9d76307a') in 0.0047767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/QuickOutline
+  artifactKey: Guid(8c8cdb38ec24caf47ac9f0fed1d1cf02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/QuickOutline using Guid(8c8cdb38ec24caf47ac9f0fed1d1cf02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48260ed6715de4edbc4031f567dab643') in 0.0045374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Numb - Ambient Music/Numb (by juanjo_sound).wav
+  artifactKey: Guid(c1416c44cbb35b44b99487ce21c5b2a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/Numb (by juanjo_sound).wav using Guid(c1416c44cbb35b44b99487ce21c5b2a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d4abf8ab37bfa6b167cc19273faaec4') in 0.0265216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV3.prefab
+  artifactKey: Guid(de500f6b90f89bc4c87a6585b2dea01a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV3.prefab using Guid(de500f6b90f89bc4c87a6585b2dea01a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '243e48481d6633b7fed1beb72aadc78c') in 0.0099395 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Scene/Showcase.unity
+  artifactKey: Guid(bfc401a16d438de498be934d79641f4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Scene/Showcase.unity using Guid(bfc401a16d438de498be934d79641f4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '19314be184be90e9736b688d85089fe2') in 0.0062417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dreamcore Music/8 Dreamcore Fragments (by juanjo_sound).wav
+  artifactKey: Guid(00110691b386c074c9bc1c1635d1047b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Dreamcore Music/8 Dreamcore Fragments (by juanjo_sound).wav using Guid(00110691b386c074c9bc1c1635d1047b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c23c71fefa54699595fa52308068b89') in 0.0233719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/swamp/swamp_6.png
+  artifactKey: Guid(7bd8ae30e6cf849aeae8b4e33c6e436b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/swamp/swamp_6.png using Guid(7bd8ae30e6cf849aeae8b4e33c6e436b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0ae86cf46d82ca7da69bf662b335581') in 0.0435182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Texture
+  artifactKey: Guid(5cb6043b85ad32140a204703bdde283b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Texture using Guid(5cb6043b85ad32140a204703bdde283b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a5492a17c5932c125791c0d72dfd78b') in 0.0042288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Numb - Ambient Music/Out There (by juanjo_sound).wav
+  artifactKey: Guid(87ae2abd019ba5445a73b00443b23545) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/Out There (by juanjo_sound).wav using Guid(87ae2abd019ba5445a73b00443b23545) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef4622056f414cb2fe82568302e03a5d') in 0.0271318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Scripts
+  artifactKey: Guid(f925f426eb81347c5be06bfe5ce69770) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Scripts using Guid(f925f426eb81347c5be06bfe5ce69770) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '23783f52281e6b91328646c3f2d8b461') in 0.0041139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Dreamcore Music/1 LOOP Dreamcore Tone (by juanjo_sound).wav
+  artifactKey: Guid(b5bc3721836be8047a3c4865b631ffd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Dreamcore Music/1 LOOP Dreamcore Tone (by juanjo_sound).wav using Guid(b5bc3721836be8047a3c4865b631ffd3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd97e2aae7c194ccee0d82c97758e29e') in 0.0243177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Ambience FX/Short_Cue_013.wav
+  artifactKey: Guid(666e2e9773517ff4e9ebab84a8acd1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Ambience FX/Short_Cue_013.wav using Guid(666e2e9773517ff4e9ebab84a8acd1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0c050d05f583c82d61d30bfaa36139d') in 0.0382915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Horror Atmosphere LITE/BONUS/GUI/GUI_Misc_008.wav
+  artifactKey: Guid(42294c6386e8aee43b693b0ad2a35365) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/BONUS/GUI/GUI_Misc_008.wav using Guid(42294c6386e8aee43b693b0ad2a35365) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddf2b04ab9fb78e3d6b68fad02c5e3a4') in 0.0309491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_02.mat
+  artifactKey: Guid(8759ec410a6774b4ea13ae32dc2b8d2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/Water_mat_02.mat using Guid(8759ec410a6774b4ea13ae32dc2b8d2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb2f9c77741f9b84708cd7214907e33e') in 0.0073784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising and Falling Atmospheres/Atmosphere_Falling_Loop_01.wav
+  artifactKey: Guid(c0bc0d12eb3899645a31f9807667f413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising and Falling Atmospheres/Atmosphere_Falling_Loop_01.wav using Guid(c0bc0d12eb3899645a31f9807667f413) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c94bb21338edeaaa69e9373e5571785a') in 0.1675473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Horror Atmosphere LITE/BONUS/GUI/Click_004.wav
+  artifactKey: Guid(ff33474cd753eaf43ac83e972459323d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/BONUS/GUI/Click_004.wav using Guid(ff33474cd753eaf43ac83e972459323d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f774725d8c39a15d10b59ae51dacd804') in 0.0225769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Jumpscare and Hits/Strike_005.wav
+  artifactKey: Guid(c739498bb4320064eb43430157c51a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Jumpscare and Hits/Strike_005.wav using Guid(c739498bb4320064eb43430157c51a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd07f4b164a3bd033c14fa6713d15adb') in 0.0316831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Horror Atmosphere LITE/BONUS/GUI/Click_023.wav
+  artifactKey: Guid(7e2689facf70f194abff6c52c7141234) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/BONUS/GUI/Click_023.wav using Guid(7e2689facf70f194abff6c52c7141234) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5734b7b9f9fdaf2698bb6953c22c4ccf') in 0.0230553 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Demo.unity
+  artifactKey: Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IgniteCoders/Simple Water Shader/Demo.unity using Guid(d1c3109bdb54ad54c8a2b2838528e640) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb87608861e3d1a6d60a51d2ac7eb29b') in 0.0044471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising Tension and Matched loops/Rising_005(Still Atmospheric Loop).wav
+  artifactKey: Guid(8b629e345de09bb4c829645bf4b1440d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising Tension and Matched loops/Rising_005(Still Atmospheric Loop).wav using Guid(8b629e345de09bb4c829645bf4b1440d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4db56c2de3123073dfefe235bbd5d7bc') in 0.0896466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Jumpscare and Hits/Strike_002.wav
+  artifactKey: Guid(d8c1224512f19fa4e8c91e802c9a66f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Jumpscare and Hits/Strike_002.wav using Guid(d8c1224512f19fa4e8c91e802c9a66f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd834de03eaeff091fa533206d1526f50') in 0.0309033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Resources/WaterBlock_50m.mesh
+  artifactKey: Guid(3da23cdf512599b42881988944f3918c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IgniteCoders/Simple Water Shader/Resources/WaterBlock_50m.mesh using Guid(3da23cdf512599b42881988944f3918c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03de82d49c0eff5685970bf2393f26e6') in 0.0085988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising Tension and Matched loops/Rising_005c.wav
+  artifactKey: Guid(81b6e6d857e1854429038f07c0a0b5f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising Tension and Matched loops/Rising_005c.wav using Guid(81b6e6d857e1854429038f07c0a0b5f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f962fa6eb3fd6d857c29b16442314829') in 0.0300582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Horror Atmosphere LITE/BONUS/GUI/Glass_Click01.wav
+  artifactKey: Guid(c5dfda905c9326b46b6723e5e0004676) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/BONUS/GUI/Glass_Click01.wav using Guid(c5dfda905c9326b46b6723e5e0004676) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2756181b2bacdd57200e5d8475f56553') in 0.0234201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Horror Atmosphere LITE/BONUS
+  artifactKey: Guid(6f06a856b8baff84a8d6da5ccd81fff3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/BONUS using Guid(6f06a856b8baff84a8d6da5ccd81fff3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '596a7c6319491550da88e33efc37869c') in 0.0034932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_angry zombie.wav
+  artifactKey: Guid(1b64710d1f6b6e041bd247cba2c588a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_angry zombie.wav using Guid(1b64710d1f6b6e041bd247cba2c588a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b884cf827bf2a85c330f791e4b2aa88b') in 0.0226646 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_007( SINGLE LOOP).wav
+  artifactKey: Guid(aa7e18111e3fc944882e000ff4e8c587) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_007( SINGLE LOOP).wav using Guid(aa7e18111e3fc944882e000ff4e8c587) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1e0bd0876c3287c89d5db4e5a056a1c') in 0.0483396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_25.wav
+  artifactKey: Guid(63cef6587eaccc74cbe95443828cb594) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_25.wav using Guid(63cef6587eaccc74cbe95443828cb594) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5ae55552fab628bac39ff1fd7bb3c08') in 0.0206201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_it_ll get you.wav
+  artifactKey: Guid(dc5e131e3615cb34e9d7fef0cd64c9a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_it_ll get you.wav using Guid(dc5e131e3615cb34e9d7fef0cd64c9a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b1b494f5500a9351f04aada8c5dbcacf') in 0.0215243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_17.wav
+  artifactKey: Guid(41b4d38e5a57cca43b19530042bddeb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_17.wav using Guid(41b4d38e5a57cca43b19530042bddeb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c273719e82cc755ee75be9438b1e0724') in 0.0219516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_04.wav
+  artifactKey: Guid(2faa10f9d108f3b408c2dce4223e7c1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_04.wav using Guid(2faa10f9d108f3b408c2dce4223e7c1d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'acdee35899295fc9f392dda7f08645e4') in 0.0198422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_01.wav
+  artifactKey: Guid(48cf6cd5eeaa0504ca897a34d5bcfc76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_01.wav using Guid(48cf6cd5eeaa0504ca897a34d5bcfc76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76bb3273421d70324f23b87200ec7c94') in 0.0196325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_05.wav
+  artifactKey: Guid(f57ee0da8d0831c4a82099966f37d541) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_05.wav using Guid(f57ee0da8d0831c4a82099966f37d541) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd2a4dbd2e28a641fc44d87c431746785') in 0.0214851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_13.wav
+  artifactKey: Guid(5ebde52b8bd52614cb2d0dc91442a421) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_13.wav using Guid(5ebde52b8bd52614cb2d0dc91442a421) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8f937684a35f4cb526898c0bb8d945b') in 0.0201606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_15.wav
+  artifactKey: Guid(8139046d4651d7445ad6e51db54605ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_15.wav using Guid(8139046d4651d7445ad6e51db54605ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '205e9185d03e71e98be26c1aefcea0b8') in 0.0211039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_from the abyss.wav
+  artifactKey: Guid(d317f36a4155f60489bf02620a0079f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_from the abyss.wav using Guid(d317f36a4155f60489bf02620a0079f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb9187fad9e771559c5ae6833e16a106') in 0.0203252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005948 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_03.wav
+  artifactKey: Guid(febb80c63dc314c4fa671c149fb9a91a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_03.wav using Guid(febb80c63dc314c4fa671c149fb9a91a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9824d92b124a8698539bbd9dd988b2fe') in 0.0201414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_01.wav
+  artifactKey: Guid(69f90022fb26bb84c9ea37b72c3e1bc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_01.wav using Guid(69f90022fb26bb84c9ea37b72c3e1bc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '90976809d6abed287b01cb479998d256') in 0.0197609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_voices.wav
+  artifactKey: Guid(f0770a28c787b53429dbff61defe82a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_voices.wav using Guid(f0770a28c787b53429dbff61defe82a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e99e31daec32deffe86bf9a9da83c7d') in 0.0232907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Ambience FX/Short_Rising-010.wav
+  artifactKey: Guid(419a7fe77c7c1be4992345a7596813a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Ambience FX/Short_Rising-010.wav using Guid(419a7fe77c7c1be4992345a7596813a3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '61747c6ece58f892c8bb9eda56fd4338') in 0.0311145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Jumpscare and Hits/Strike_003a.wav
+  artifactKey: Guid(b3a943aa2a444f743b95ba05a94649f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Jumpscare and Hits/Strike_003a.wav using Guid(b3a943aa2a444f743b95ba05a94649f2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24c27f8127c1cc0bb2877a716132db8c') in 0.0358437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Ambience FX/Bell-002.wav
+  artifactKey: Guid(69e4ce5d3e61aa24c96191f33a139496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Ambience FX/Bell-002.wav using Guid(69e4ce5d3e61aa24c96191f33a139496) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3897407478b1855875f01f175f365bfa') in 0.031911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/content_mangled_screams_(free).pdf
+  artifactKey: Guid(40da17c00527b9540b049f0e6be597da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/content_mangled_screams_(free).pdf using Guid(40da17c00527b9540b049f0e6be597da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '25b31bd98f5b8aefff4f9e9619b4d45f') in 0.003986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_09.wav
+  artifactKey: Guid(8d3d8a31980528744a3745ffc1b85c01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_09.wav using Guid(8d3d8a31980528744a3745ffc1b85c01) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '208ace29fec79bbdd47bbec89c0e517a') in 0.0233278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Chaos_001(End Trail).wav
+  artifactKey: Guid(521b4b084d289e546a43cd4a0e3bda5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Chaos_001(End Trail).wav using Guid(521b4b084d289e546a43cd4a0e3bda5d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e0836a3a949d26c19daf41aa507618cb') in 0.0225614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_03.wav
+  artifactKey: Guid(1e4f19e0ea833e14d9e84ae04b5753cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_03.wav using Guid(1e4f19e0ea833e14d9e84ae04b5753cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1251a59ab92493edc80fff4e062c437c') in 0.0211841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Mugs, Bowls and Plates/sample Scene/Sample Scene.unity
+  artifactKey: Guid(55eae7c92ee2ef2439ddd2b306de06b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/sample Scene/Sample Scene.unity using Guid(55eae7c92ee2ef2439ddd2b306de06b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cf094a01790d7471afc56465096e300c') in 0.0051697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mugs, Bowls and Plates
+  artifactKey: Guid(b28bf69b074fe29449fdd7c90db49189) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates using Guid(b28bf69b074fe29449fdd7c90db49189) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3569b1bd336e2c4f049438f39d567da') in 0.0042403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_monster screech.wav
+  artifactKey: Guid(dd34675d1ddd6824eae8c703dd45191b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_voxpat_monster screech.wav using Guid(dd34675d1ddd6824eae8c703dd45191b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '58b7946f4424931ecd2a6a263382fd37') in 0.0216803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Mugs, Bowls and Plates/sample Scene/Prefabs/bowl03.prefab
+  artifactKey: Guid(c8464864c32546c4badbb73df5635f5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/sample Scene/Prefabs/bowl03.prefab using Guid(c8464864c32546c4badbb73df5635f5a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5adb9cb24c29a68e2597eda0935abda2') in 0.0070871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Aggressive/zombie_agressive_039.wav
+  artifactKey: Guid(bc2baab908f1b004691a6ecf7044f61c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Aggressive/zombie_agressive_039.wav using Guid(bc2baab908f1b004691a6ecf7044f61c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ededc0c2c698c6df5980dada6f6d3105') in 0.0304537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_14.wav
+  artifactKey: Guid(f8af0d56e07212043bb652b3951debeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_14.wav using Guid(f8af0d56e07212043bb652b3951debeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd3f88c8d6ac31e75204a2980d5add6fb') in 0.0234925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Libraries
+  artifactKey: Guid(d95ee8a277382f147ad06dd4a8235005) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries using Guid(d95ee8a277382f147ad06dd4a8235005) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8cc5a5dcd99878164b6064f03c0b798f') in 0.0051591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mugs, Bowls and Plates/Textures/bowl02_ao.png
+  artifactKey: Guid(7b882359bb191ed41a1d8ebc245c35ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Textures/bowl02_ao.png using Guid(7b882359bb191ed41a1d8ebc245c35ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d25a827c0c5def492c4e50900cb57c3') in 0.0080958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Hiss/zombie_hiss_010.wav
+  artifactKey: Guid(168c9a5ac7025814ea9c89e5098a3cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Hiss/zombie_hiss_010.wav using Guid(168c9a5ac7025814ea9c89e5098a3cad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '11e5b651d0adad5f628c54652e49e87f') in 0.0279761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_010.wav
+  artifactKey: Guid(ebb96c703224744479e6294bd49515d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_010.wav using Guid(ebb96c703224744479e6294bd49515d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e45fd19724374f8faf80f2d2d0df4d49') in 0.0277315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Grunt
+  artifactKey: Guid(6e8e1426c21f83d4681f52c8ed05ce23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Grunt using Guid(6e8e1426c21f83d4681f52c8ed05ce23) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dca3fb50eeb0f44d331400e87523ba98') in 0.003669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Moan
+  artifactKey: Guid(88860407e70d7644f8444a318e274461) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Moan using Guid(88860407e70d7644f8444a318e274461) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cfda69545ae35bb7eb3aa82df4e38d6a') in 0.003726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_023.wav
+  artifactKey: Guid(f1ff3e33006a291449618f6fc613e928) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_023.wav using Guid(f1ff3e33006a291449618f6fc613e928) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aefcb99cf66f4f018f0ccfa063716c75') in 0.0277621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Chase/zombie_hyperchase_1_loop.wav
+  artifactKey: Guid(e1e7f406c66d0c34f94726e83f3b5cbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Chase/zombie_hyperchase_1_loop.wav using Guid(e1e7f406c66d0c34f94726e83f3b5cbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b895154b86fb101af7d0b7566d79248e') in 0.0690108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Aggressive/zombie_agressive_044.wav
+  artifactKey: Guid(12e7285fa38aaf943a0ed8c7f3c684eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Tybug Studios/Zombie Voice Pack - Free/Zombie Aggressive/zombie_agressive_044.wav using Guid(12e7285fa38aaf943a0ed8c7f3c684eb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da1a9cdb3fc124aa0abbca7b6eb59c32') in 0.0275992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_008( SINGLE LOOP).wav
+  artifactKey: Guid(6d6a33094371f8a4b9d4178951b9e95a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_008( SINGLE LOOP).wav using Guid(6d6a33094371f8a4b9d4178951b9e95a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e3e7047d677284e71c4292554cf6c2e') in 0.1610058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterReflectionCamera.prefab
+  artifactKey: Guid(838c0bef810bfe94d8e33947c3cba7c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IgniteCoders/Simple Water Shader/Prefabs/WaterReflectionCamera.prefab using Guid(838c0bef810bfe94d8e33947c3cba7c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '50c997878329180567b26d6a83ae88cc') in 0.0326855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mugs, Bowls and Plates/Textures/mug01_ao.png
+  artifactKey: Guid(1280f3917e924bb44a04a05ea29cc7fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Textures/mug01_ao.png using Guid(1280f3917e924bb44a04a05ea29cc7fa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '525c5c635b30204d02b467acb7c1ccb3') in 0.0082723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mugs, Bowls and Plates/sample Scene/Prefabs/plate02.prefab
+  artifactKey: Guid(f83cef8151cc2764e80d7ba6f97231fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/sample Scene/Prefabs/plate02.prefab using Guid(f83cef8151cc2764e80d7ba6f97231fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe16713431c2c91266d32d23f6d1cbef') in 0.0072522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mugs, Bowls and Plates/Textures/bowl03.png
+  artifactKey: Guid(5cdf22552ad6f5144ab48a21d1e4020f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Textures/bowl03.png using Guid(5cdf22552ad6f5144ab48a21d1e4020f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '874793625159b6dff874b14d1bb2f53d') in 0.0071133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Mugs, Bowls and Plates/Textures/mug02_ao.png
+  artifactKey: Guid(b6dfba9c44712354eb01c5ee1939b7bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Textures/mug02_ao.png using Guid(b6dfba9c44712354eb01c5ee1939b7bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a02663e63a8fc72c111480e124a5c55f') in 0.0077403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/paper_stray.prefab
+  artifactKey: Guid(e84285a83eb81ac48873e516fa1603d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/paper_stray.prefab using Guid(e84285a83eb81ac48873e516fa1603d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '596b1ef8f1cd306ec21bd1ad7935c3bc') in 0.0090803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.443403 seconds.
+  path: Assets/VNB - Office Set/Materials/palette_5.mat
+  artifactKey: Guid(32ae13243ec49e04d84854d4a8a22acc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials/palette_5.mat using Guid(32ae13243ec49e04d84854d4a8a22acc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d3754de167b8c6bbd3830ccdc007932') in 0.010469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VNB - Office Set/Scenes/Demo 2 - Office Set 1.unity
+  artifactKey: Guid(578728e0dd306bc42b9882fa04dd56df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Scenes/Demo 2 - Office Set 1.unity using Guid(578728e0dd306bc42b9882fa04dd56df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b5e4d7f286fa1e798ac301a0872c9b7') in 0.0127834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Building/wall_standard_s-deco_wood.prefab
+  artifactKey: Guid(f984636a8914ae543bcf09ca3510c481) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Building/wall_standard_s-deco_wood.prefab using Guid(f984636a8914ae543bcf09ca3510c481) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee8c43b46a41eb482c448a09db4a49db') in 0.0078217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Deco/pile_of_books_(organized).prefab
+  artifactKey: Guid(1d430427663656c45b1e3b2f670b5b12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Deco/pile_of_books_(organized).prefab using Guid(1d430427663656c45b1e3b2f670b5b12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57c26f9481cc67c5633dc78ea742ba7e') in 0.0098463 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 48
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Deco/alcohol_dispenser_a_2.prefab
+  artifactKey: Guid(9a326cf475f259c4d9ab0087a10ff978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Deco/alcohol_dispenser_a_2.prefab using Guid(9a326cf475f259c4d9ab0087a10ff978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddf1fd04de6cda6235d151c22641af73') in 0.0056901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.451322 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Building/wall_standard_door_frame.prefab
+  artifactKey: Guid(2e6de12b1fa53d14b90835d4b6d3e78a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Building/wall_standard_door_frame.prefab using Guid(2e6de12b1fa53d14b90835d4b6d3e78a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1af237796ec87e2a43172f4caec6c024') in 0.0084507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VNB - Office Set/Textures
+  artifactKey: Guid(0d455d938203ab646bd68fe815a03596) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Textures using Guid(0d455d938203ab646bd68fe815a03596) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd08076a6a3361f75c0d7f6d0a3bc25d8') in 0.0037922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/notepad.prefab
+  artifactKey: Guid(794ca9ac3e34a6c42bd845432f87cd68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/notepad.prefab using Guid(794ca9ac3e34a6c42bd845432f87cd68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '531453077082f8874ae2a269be599854') in 0.0083083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Deco/alcohol_dispenser_a.prefab
+  artifactKey: Guid(3b58de21bc2305149974176161893e51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Deco/alcohol_dispenser_a.prefab using Guid(3b58de21bc2305149974176161893e51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '690e35cc91fd15b7464da008147be8ba') in 0.0082947 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VNB - Office Set/Materials/paintings_1.mat
+  artifactKey: Guid(6889f44cfcf0ad14ca17925b3d51f15c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials/paintings_1.mat using Guid(6889f44cfcf0ad14ca17925b3d51f15c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45193ad832c20e10faaea8bdab1dbe1e') in 0.0070157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Deco/rug_a.prefab
+  artifactKey: Guid(5efae71b946e33d45887f7768a802da5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Deco/rug_a.prefab using Guid(5efae71b946e33d45887f7768a802da5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45e637e8ad41ab626bd8ab751d786567') in 0.0080417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456388 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Furniture/whiteboard_wall.prefab
+  artifactKey: Guid(222cb652f40eb5c46bb42c9f185af0db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Furniture/whiteboard_wall.prefab using Guid(222cb652f40eb5c46bb42c9f185af0db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc786e677c53f7a2ce81e902e7745f2f') in 0.0107027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/standard_office_chair_1.prefab
+  artifactKey: Guid(615251885f1a6ab458e28dd5d6c6da64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/standard_office_chair_1.prefab using Guid(615251885f1a6ab458e28dd5d6c6da64) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f546bc62a1f42ee501ea77af7680914a') in 0.0082787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 45
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Food/bread_slice.prefab
+  artifactKey: Guid(9ccb184310ba6b642baf8e099704aa4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Food/bread_slice.prefab using Guid(9ccb184310ba6b642baf8e099704aa4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4483d3dceac1653a54d4a08fd0186d6a') in 0.0075639 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Food/fruit_plate.prefab
+  artifactKey: Guid(de8f9c4591c3a5e4db4d623493c309b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Food/fruit_plate.prefab using Guid(de8f9c4591c3a5e4db4d623493c309b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5adeabc7a03965989ae3863a7f168500') in 0.0087121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Deco/sticky_note_a.prefab
+  artifactKey: Guid(e89ed595c8c963641b78ef816d150d4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Deco/sticky_note_a.prefab using Guid(e89ed595c8c963641b78ef816d150d4b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4c71ab39a14c12aed4a337257f388bff') in 0.0088834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.456142 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/simple_office_chair_variant.prefab
+  artifactKey: Guid(555776743ab31da46822e12ac74c2e88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/simple_office_chair_variant.prefab using Guid(555776743ab31da46822e12ac74c2e88) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd64020b1308ffa8e506cb8481482a494') in 0.0110708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 83
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Deco/alcohol_dispenser_b.prefab
+  artifactKey: Guid(b674a6800940b1d41a6468cd22fca077) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Deco/alcohol_dispenser_b.prefab using Guid(b674a6800940b1d41a6468cd22fca077) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2306aa871c655c1ba0fb0e284a685d4d') in 0.010264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/desk_3.prefab
+  artifactKey: Guid(aeec122b5cfbc844894e42eb2bd55386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/desk_3.prefab using Guid(aeec122b5cfbc844894e42eb2bd55386) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '290f8eeb8da639ba91a64e1451fe9bfa') in 0.0089552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/VNB - Office Set/ReadMe.txt
+  artifactKey: Guid(7775daa797174f64986a52cda8c411ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/ReadMe.txt using Guid(7775daa797174f64986a52cda8c411ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd6c551695bebb5c29f361a055c9b9727') in 0.0056807 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Deco/nature_deco_plant.prefab
+  artifactKey: Guid(93e95a25893f69d46aba08851115522c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Deco/nature_deco_plant.prefab using Guid(93e95a25893f69d46aba08851115522c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '260af1555ca5fff351122028b4e7f5f7') in 0.0085877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.453813 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/stapler.prefab
+  artifactKey: Guid(9334802947a112d489eb0ad702ab585a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/stapler.prefab using Guid(9334802947a112d489eb0ad702ab585a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e79553874515c1447178bd64cc1dc0b0') in 0.0085788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/VNB - Office Set/Textures/palette3.png
+  artifactKey: Guid(89f6c2e5c02733241bb71951f84cb01d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Textures/palette3.png using Guid(89f6c2e5c02733241bb71951f84cb01d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02867cfbc2a6d71f71389db5da0573ca') in 0.0076911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VNB - Office Set/Materials
+  artifactKey: Guid(8175572f2056a03479ec2f3f88030029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials using Guid(8175572f2056a03479ec2f3f88030029) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c65f5ae96b1604ce84e124f434338af5') in 0.0037334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Food/cheese_slice.prefab
+  artifactKey: Guid(badf43c03faeecc44b1d60198000318e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Food/cheese_slice.prefab using Guid(badf43c03faeecc44b1d60198000318e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35c0d3171d2f95e8edb26d27ea0d4832') in 0.0071228 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Deco/book_2.prefab
+  artifactKey: Guid(95673e01729d3ee4f90a32ee9a726ce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Deco/book_2.prefab using Guid(95673e01729d3ee4f90a32ee9a726ce6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d5cc921d549551720e4ba3e1db6f9df') in 0.0080579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.464164 seconds.
+  path: Assets/VNB - Office Set/Textures/Rug_2.png
+  artifactKey: Guid(eb82be3f5abe0454d97fdbdd124c6ec8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Textures/Rug_2.png using Guid(eb82be3f5abe0454d97fdbdd124c6ec8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd9b0373d9d5f4cb184428c5b81b6b85d') in 0.0086595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VNB - Office Set/Materials/palette_1.mat
+  artifactKey: Guid(fd3f28898aa4320409895499ca6515fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials/palette_1.mat using Guid(fd3f28898aa4320409895499ca6515fe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5726dc1f1a84c665c9759205087cef14') in 0.0063248 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Food/cup_filled.prefab
+  artifactKey: Guid(9ee8253bd55f4114ea5a99f7ecb93391) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Food/cup_filled.prefab using Guid(9ee8253bd55f4114ea5a99f7ecb93391) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc6751dc4a5cff77b5faaf923860c3fd') in 0.0076654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Deco/small_bamboo_deco.prefab
+  artifactKey: Guid(9dd715038d6fa2e43a9da28d327d977b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Deco/small_bamboo_deco.prefab using Guid(9dd715038d6fa2e43a9da28d327d977b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e14a9489ab4dd417959be0ddf7f49d36') in 0.0086765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470257 seconds.
+  path: Assets/VNB - Office Set/Models/office_set_vnb.fbx
+  artifactKey: Guid(f1cd6800d51724d4291ee22764292e86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Models/office_set_vnb.fbx using Guid(f1cd6800d51724d4291ee22764292e86) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f92a710dd98f19f44200193f5dacbff') in 0.0897727 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 854
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.409619 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Furniture/shelf_alternative_2.prefab
+  artifactKey: Guid(1b23bbb4cbc3d944f849ea507a8e0993) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Furniture/shelf_alternative_2.prefab using Guid(1b23bbb4cbc3d944f849ea507a8e0993) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '48897f4d93b759ae0bfe57fc5452aad7') in 0.009495 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Food/coffee_cup.prefab
+  artifactKey: Guid(1799cc7c56e44b14399f4ecdabd365a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Food/coffee_cup.prefab using Guid(1799cc7c56e44b14399f4ecdabd365a2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e909a46e099deffe56dceb494ca72fdb') in 0.0076306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/VNB - Office Set/Materials/board_doc_2.mat
+  artifactKey: Guid(e1ac93941eb63c84cb8599b1a331a5b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials/board_doc_2.mat using Guid(e1ac93941eb63c84cb8599b1a331a5b4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa14d835a6c4efd378f90a5f440a3c18') in 0.0070285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/pencil_holder.prefab
+  artifactKey: Guid(27e85d63cb9b30b4d9acc2497f67048b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/pencil_holder.prefab using Guid(27e85d63cb9b30b4d9acc2497f67048b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2fc98c110fc9faf622d9e21424a5b42') in 0.0061771 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 46
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.467744 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Building/wall_medium_door_frame.prefab
+  artifactKey: Guid(e417b1ac7ffd3b44a854dace85f01b95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Building/wall_medium_door_frame.prefab using Guid(e417b1ac7ffd3b44a854dace85f01b95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '651ec8ffcabe0e6a57aabdfb41b08683') in 0.0104866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VNB - Office Set/Materials/screen_off.mat
+  artifactKey: Guid(7bff55d98011a3a43b5d6bd15a4a489c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials/screen_off.mat using Guid(7bff55d98011a3a43b5d6bd15a4a489c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e11f11eadff8a6618c0d6904b02b8b33') in 0.0062809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Furniture/shelf.prefab
+  artifactKey: Guid(66db9ad9447bb6c4cb0892a19dccca07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Furniture/shelf.prefab using Guid(66db9ad9447bb6c4cb0892a19dccca07) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36f0a7d978534117976952437354a88c') in 0.0098707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 52
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/tape.prefab
+  artifactKey: Guid(e5e3f50da533d5d47aadb127d27cce39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/tape.prefab using Guid(e5e3f50da533d5d47aadb127d27cce39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62bd8150f5ca4e379c57e976350b1496') in 0.0082939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.462383 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/book_folder_2.prefab
+  artifactKey: Guid(60ff1471ae2c62a4a92ddb40065ad48b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/book_folder_2.prefab using Guid(60ff1471ae2c62a4a92ddb40065ad48b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a010a5dc17c2cb99fee56b137c236cf') in 0.0097937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Food/tomato_slice.prefab
+  artifactKey: Guid(eeb3cdfe18d96c943a22aede690c6e9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Food/tomato_slice.prefab using Guid(eeb3cdfe18d96c943a22aede690c6e9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd60062d7579fc625661e3d2800cab389') in 0.0080259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Furniture/file_cabinet_medium.prefab
+  artifactKey: Guid(1630afabe1cc030489542c43308060c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Furniture/file_cabinet_medium.prefab using Guid(1630afabe1cc030489542c43308060c8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '328a81be231f0637bb4f3f25d7774a4a') in 0.0083443 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/desk_1_alternative.prefab
+  artifactKey: Guid(141e5782a7b9eca4ea38f8a0f66746fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/desk_1_alternative.prefab using Guid(141e5782a7b9eca4ea38f8a0f66746fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '546b25c91291953ed251e32aa98a4862') in 0.0080621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.463595 seconds.
+  path: Assets/VNB - Office Set/Materials/board_doc_1.mat
+  artifactKey: Guid(0c1ac2d62e3f8954fabb8380d3153714) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials/board_doc_1.mat using Guid(0c1ac2d62e3f8954fabb8380d3153714) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b71ffd19d97cedbb377d9f5575da7990') in 0.0075356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/VNB - Office Set/Materials/board_doc_3.mat
+  artifactKey: Guid(650ef577b39680645b3e79c272c840b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials/board_doc_3.mat using Guid(650ef577b39680645b3e79c272c840b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe5d8d6a9e335e1efb3e6fc46cfd0261') in 0.0066368 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/VNB - Office Set/Textures/screens.png
+  artifactKey: Guid(ee278633add2d514ba56a3b6b5f64f68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Textures/screens.png using Guid(ee278633add2d514ba56a3b6b5f64f68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '834f2a66f09db2dc6ac5cbff6d1f66a9') in 0.0082451 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.983297 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/bamboo/bamboo_1.png
+  artifactKey: Guid(9c82f152192394e1aac620bdcb8d308f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/bamboo/bamboo_1.png using Guid(9c82f152192394e1aac620bdcb8d308f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cd8d765cf963be16c8e5de0e615bab6') in 0.0286114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/QuickOutline/Samples/Scenes/QuickOutline.unity
+  artifactKey: Guid(f23712c79adc910408e872b127e825cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/QuickOutline/Samples/Scenes/QuickOutline.unity using Guid(f23712c79adc910408e872b127e825cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3d20bcb164de8ad43100317f650cb133') in 0.0047966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.464030 seconds.
+  path: Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV1.prefab
+  artifactKey: Guid(94c015d94f6e5364e9b36b960bbe1b77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Alstra Infinite/Fish - PolyPack/Prefabs/FishV1.prefab using Guid(94c015d94f6e5364e9b36b960bbe1b77) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80b9563921a942059d5e7665ff475222') in 0.0069189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IgniteCoders/Simple Water Shader/Info/Icons/Water Shader icon.PNG
+  artifactKey: Guid(766a7edc5f25e3b4daafb5554da17927) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/IgniteCoders/Simple Water Shader/Info/Icons/Water Shader icon.PNG using Guid(766a7edc5f25e3b4daafb5554da17927) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b689a84f66b6483912d88aa23f96230') in 0.0071962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.486377 seconds.
+  path: Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Chaos_005(Loop).wav
+  artifactKey: Guid(da163e0f47b646d4e9f22c360bed099e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Chaos_005(Loop).wav using Guid(da163e0f47b646d4e9f22c360bed099e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '66271cc35fc3c5cd3a018da7ae308e10') in 0.0743214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.427148 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_08.wav
+  artifactKey: Guid(7169aca6af811f24ab8b9cc1428046a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/sb_mangled_scream_08.wav using Guid(7169aca6af811f24ab8b9cc1428046a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9fe0a169a1dff2a33e61394320f4ab82') in 0.017673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.482828 seconds.
+  path: Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_19.wav
+  artifactKey: Guid(55959e03aa6f099439eb5db3d8525c34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Libraries/Mangled_Screams_free/Sounds/ms_mangled_scream_19.wav using Guid(55959e03aa6f099439eb5db3d8525c34) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '128ffdc141ccfaf364dbe2a0440356d7') in 0.0209144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.480097 seconds.
+  path: Assets/Mugs, Bowls and Plates/Textures/mug02_nm.png
+  artifactKey: Guid(7c3644bc2d5fd1a42b9c2b5404900560) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Textures/mug02_nm.png using Guid(7c3644bc2d5fd1a42b9c2b5404900560) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed7819db7cf9155007a71e2fceefe400') in 0.0126879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Mugs, Bowls and Plates/Models/plate02.fbx
+  artifactKey: Guid(20293085696677d40a2cc969adbb2e12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Models/plate02.fbx using Guid(20293085696677d40a2cc969adbb2e12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd754445d86c3fd259665f434ca292fab') in 0.0089184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/VNB - Office Set/Materials/paintings_2.mat
+  artifactKey: Guid(9fe5e72a0fbe6914e83eac7c9af908b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials/paintings_2.mat using Guid(9fe5e72a0fbe6914e83eac7c9af908b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8585e885b7b8f867744490c33dbbd825') in 0.0070662 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mugs, Bowls and Plates/Models/Materials/bowl02.mat
+  artifactKey: Guid(749d1d5c1658f1548bad06c2ae7d3f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Models/Materials/bowl02.mat using Guid(749d1d5c1658f1548bad06c2ae7d3f39) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d8b092e879238b6176af0424dbe5036') in 0.0113795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/VNB - Office Set/Materials/palette_2.mat
+  artifactKey: Guid(7aa368f610f52bd46b88debe525b88ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Materials/palette_2.mat using Guid(7aa368f610f52bd46b88debe525b88ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a9e46a1cdd603d8c7362a8157e7c99c') in 0.0093847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mugs, Bowls and Plates/Models/Materials/mug01.mat
+  artifactKey: Guid(4aedf822205248740998f76b3366dfc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Models/Materials/mug01.mat using Guid(4aedf822205248740998f76b3366dfc7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3bb1ddbcac07add13eb03b880e38fd7d') in 0.0129837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mugs, Bowls and Plates/Textures/plate01_nm.png
+  artifactKey: Guid(7609a2f4b0d40b649adcf9c8a58a358f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Textures/plate01_nm.png using Guid(7609a2f4b0d40b649adcf9c8a58a358f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd81fb2988af15975b3c8397bc87270d0') in 0.0085018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mugs, Bowls and Plates/Textures/bowl01_rgh.png
+  artifactKey: Guid(fe68990033a29534399892d17daacba2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Textures/bowl01_rgh.png using Guid(fe68990033a29534399892d17daacba2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8ac3fef18a4f9a68178a3c85a7c1cce6') in 0.0080988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/fan_1.prefab
+  artifactKey: Guid(450d9563d518cbc4ea0c40995d0c09da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/fan_1.prefab using Guid(450d9563d518cbc4ea0c40995d0c09da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f1d67d64aee9a9c4f600bacc93e66df4') in 0.0096226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Mugs, Bowls and Plates/Textures/bowl02_nm.png
+  artifactKey: Guid(43179b4001f325244994e25040fc2553) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Mugs, Bowls and Plates/Textures/bowl02_nm.png using Guid(43179b4001f325244994e25040fc2553) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4020aeef89a3b0bf8b00db93edfe70b') in 0.0095981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/new_mouse.prefab
+  artifactKey: Guid(d3c21da7f014ddf4cac46e46f889b009) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/new_mouse.prefab using Guid(d3c21da7f014ddf4cac46e46f889b009) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '39a7705f61562fa4ee7bcae4a34fb6e9') in 0.0081827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Office/controller_tv.prefab
+  artifactKey: Guid(784e980c1cf96344d9d04f01e2618d6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Office/controller_tv.prefab using Guid(784e980c1cf96344d9d04f01e2618d6b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a33e301cfcd841bca15dfdd77853256d') in 0.0099049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/VNB - Office Set/Prefabs/Building/wall_standard.prefab
+  artifactKey: Guid(040b0e4d147341b4780f162c4ecef39c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/VNB - Office Set/Prefabs/Building/wall_standard.prefab using Guid(040b0e4d147341b4780f162c4ecef39c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0b327dba890e261e617c3a8eeb5c9307') in 0.0085879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.619857 seconds.
+  path: Assets/Numb - Ambient Music/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl
+  artifactKey: Guid(ebfd44ff83ca9a94cbf6e5335f09043d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl using Guid(ebfd44ff83ca9a94cbf6e5335f09043d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd1c0eea77f88914eabb376a655ac197a') in 0.0046909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Numb - Ambient Music/Tybug Studios/Zombie Voice Pack - Free/Zombie Aggressive/zombie_agressive_039.wav
+  artifactKey: Guid(bc2baab908f1b004691a6ecf7044f61c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/Tybug Studios/Zombie Voice Pack - Free/Zombie Aggressive/zombie_agressive_039.wav using Guid(bc2baab908f1b004691a6ecf7044f61c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8a6507e704fbaaf0c0ad9fb439f4ab5') in 0.0337837 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Numb - Ambient Music/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_023.wav
+  artifactKey: Guid(f1ff3e33006a291449618f6fc613e928) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_023.wav using Guid(f1ff3e33006a291449618f6fc613e928) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '860076a300a9332c8de6b2921cfbed78') in 0.0234269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Numb - Ambient Music/Tybug Studios/Zombie Voice Pack - Free/Zombie Moan/zombie_moan_001.wav
+  artifactKey: Guid(ceb2474913e8b5e40b17213af473d784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Numb - Ambient Music/Tybug Studios/Zombie Voice Pack - Free/Zombie Moan/zombie_moan_001.wav using Guid(ceb2474913e8b5e40b17213af473d784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cfd0b2f6ccfe45b3fcc413862fecfdf') in 0.0245578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.200287 seconds.
+  path: Assets/Numb - Ambient Music/Dreamcore Ambient (by juanjo_sound).wav
+  artifactKey: Guid(fc32b3a30bacd1d488d30f6c6f3dd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numb - Ambient Music/Dreamcore Ambient (by juanjo_sound).wav using Guid(fc32b3a30bacd1d488d30f6c6f3dd97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7aa5cd79e56b4746ad3515340bbbd9a3') in 0.0517151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Numb - Ambient Music/Out There (by juanjo_sound).wav
+  artifactKey: Guid(87ae2abd019ba5445a73b00443b23545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Numb - Ambient Music/Out There (by juanjo_sound).wav using Guid(87ae2abd019ba5445a73b00443b23545) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb18223731e4ea9dee683d35d2a2502b') in 0.00697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.306706 seconds.
+  path: Assets/SOUNDS/Numb - Ambient Music/LOOP Just One Moment (by juanjo_sound).wav
+  artifactKey: Guid(28f50a63fd92aaa46aae3df959b7fd7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Numb - Ambient Music/LOOP Just One Moment (by juanjo_sound).wav using Guid(28f50a63fd92aaa46aae3df959b7fd7c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62dd93e3ab0968592c04334a159ce0fb') in 0.0204714 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/SOUNDS/Numb - Ambient Music/Just One Moment (by juanjo_sound).wav
+  artifactKey: Guid(cb0caae7c2087a248ab9756b180cb9a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Numb - Ambient Music/Just One Moment (by juanjo_sound).wav using Guid(cb0caae7c2087a248ab9756b180cb9a4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd06e70abde988e6d3a7ef3c30fbcc86') in 0.0268142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/SOUNDS/Numb - Ambient Music/LOOP Outside (by juanjo_sound).wav
+  artifactKey: Guid(e91d5bced15e4d142ba1201ef0ce6e79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Numb - Ambient Music/LOOP Outside (by juanjo_sound).wav using Guid(e91d5bced15e4d142ba1201ef0ce6e79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c97851e70c18d4ee6ebc645c30475802') in 0.0188494 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/SOUNDS/Numb - Ambient Music/LOOP Dreamcore Ambient (by juanjo_sound).wav
+  artifactKey: Guid(6bade5a5f4e59b149b49bf6beb391524) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Numb - Ambient Music/LOOP Dreamcore Ambient (by juanjo_sound).wav using Guid(6bade5a5f4e59b149b49bf6beb391524) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '264b251b7b3a1c2721f093901b3b082d') in 0.0299803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.368400 seconds.
+  path: Assets/SOUNDS/The Backrooms Music Vol. 1/juanjo_ sound - crop circles.wav
+  artifactKey: Guid(901ddfa1da5a4824bb17c52918f893d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/The Backrooms Music Vol. 1/juanjo_ sound - crop circles.wav using Guid(901ddfa1da5a4824bb17c52918f893d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '28b743d4ba4172523f9c13f4a64568b9') in 0.0192476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/SOUNDS/The Backrooms Music Vol. 1/juanjo_ sound - continuum.wav
+  artifactKey: Guid(abe320bd4168b4946ae0bd73367ac584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/The Backrooms Music Vol. 1/juanjo_ sound - continuum.wav using Guid(abe320bd4168b4946ae0bd73367ac584) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4d6cbb9fd7b5213ac88d82c6c8a66c83') in 0.0187401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/SOUNDS/The Backrooms Music Vol. 1/juanjo_ sound - The Poolrooms.wav
+  artifactKey: Guid(9de4f8b8eb39b5f49a9e25705e5c0f19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/The Backrooms Music Vol. 1/juanjo_ sound - The Poolrooms.wav using Guid(9de4f8b8eb39b5f49a9e25705e5c0f19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '32760093c7c8c3718cd843d62dab97dd') in 0.0172134 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.824048 seconds.
+  path: Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl
+  artifactKey: Guid(ebfd44ff83ca9a94cbf6e5335f09043d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl using Guid(ebfd44ff83ca9a94cbf6e5335f09043d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c604473154e40487e4b600b9a73bbc6') in 0.0051267 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free
+  artifactKey: Guid(6cf4900949ed6e444a13f9713aa9108b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free using Guid(6cf4900949ed6e444a13f9713aa9108b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b5fcb4e7ab0b5812d525873d102b056c') in 0.0034529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_010.wav
+  artifactKey: Guid(ebb96c703224744479e6294bd49515d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_010.wav using Guid(ebb96c703224744479e6294bd49515d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2a55cf47df3d5253b985d8833bb2c7b5') in 0.0246647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_023.wav
+  artifactKey: Guid(f1ff3e33006a291449618f6fc613e928) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free/Zombie Growl/zombie_growl_023.wav using Guid(f1ff3e33006a291449618f6fc613e928) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8dee9c5bbfca3c900fbf347e98607da0') in 0.0287374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free/Zombie Moan/zombie_moan_001.wav
+  artifactKey: Guid(ceb2474913e8b5e40b17213af473d784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Tybug Studios/Zombie Voice Pack - Free/Zombie Moan/zombie_moan_001.wav using Guid(ceb2474913e8b5e40b17213af473d784) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b0089fff7b2613a9bb3de9a52e4cff1') in 0.0260106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.506921 seconds.
+  path: Assets/SOUNDS/Dreamcore Music/3 LOOP Dreamcore Lost (by juanjo_sound).wav
+  artifactKey: Guid(4116402025adc5d469c02a663f805487) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Dreamcore Music/3 LOOP Dreamcore Lost (by juanjo_sound).wav using Guid(4116402025adc5d469c02a663f805487) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36abdf78dbca6aaeb37c62f7d7e7bcdb') in 0.0220149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/SOUNDS/Dreamcore Music/8 LOOP Dreamcore Fragments (by juanjo_sound).wav
+  artifactKey: Guid(d67da28a8c495ee49b3f3b75d28c7f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Dreamcore Music/8 LOOP Dreamcore Fragments (by juanjo_sound).wav using Guid(d67da28a8c495ee49b3f3b75d28c7f9c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9dc81177666ecac37d8fa1744279b72c') in 0.018981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/SOUNDS/Dreamcore Music/3 Dreamcore Lost (by juanjo_sound).wav
+  artifactKey: Guid(f57b78681af20ae46832ce7e785bb8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Dreamcore Music/3 Dreamcore Lost (by juanjo_sound).wav using Guid(f57b78681af20ae46832ce7e785bb8c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d4c3dfd81d9035f8f5c86bf0072ed3f') in 0.0216659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/SOUNDS/Dreamcore Music/8 Dreamcore Fragments (by juanjo_sound).wav
+  artifactKey: Guid(00110691b386c074c9bc1c1635d1047b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/SOUNDS/Dreamcore Music/8 Dreamcore Fragments (by juanjo_sound).wav using Guid(00110691b386c074c9bc1c1635d1047b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0fad0122dcc1b228a793e1cfad03b2a7') in 0.017544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.868226 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Ambience FX
+  artifactKey: Guid(422b6d1cebd836245bd0271327d8eeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Ambience FX using Guid(422b6d1cebd836245bd0271327d8eeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '461f4bf31e491c50eba35ea54d361471') in 0.005026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Ambience FX/Short_Cue_013.wav
+  artifactKey: Guid(666e2e9773517ff4e9ebab84a8acd1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Ambience FX/Short_Cue_013.wav using Guid(666e2e9773517ff4e9ebab84a8acd1b6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd11a4acab33e82897b4eeaedcc5265ff') in 0.02833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/BONUS/GUI
+  artifactKey: Guid(a5c1fa761e1f1fe429de2c0d4b368b0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/BONUS/GUI using Guid(a5c1fa761e1f1fe429de2c0d4b368b0c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9dd8c1b9ae0ec3c312d56db03b89e0e9') in 0.0036077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Ambience FX/Short_Cue_002.wav
+  artifactKey: Guid(17d150da56d721842b3e0ce461730236) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Ambience FX/Short_Cue_002.wav using Guid(17d150da56d721842b3e0ce461730236) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '36eac06809a2203b12da858255ff5827') in 0.032959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising Tension and Matched loops/Rising_002a.wav
+  artifactKey: Guid(453bfe183e28ef241be6afa3c73f7388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising Tension and Matched loops/Rising_002a.wav using Guid(453bfe183e28ef241be6afa3c73f7388) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e578e7d26780c0dfebd90df9b0b9663b') in 0.0532761 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/BONUS/GUI/Click_004.wav
+  artifactKey: Guid(ff33474cd753eaf43ac83e972459323d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/BONUS/GUI/Click_004.wav using Guid(ff33474cd753eaf43ac83e972459323d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '322d66491a7378aa3fe400632eee41b7') in 0.0219264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/BONUS/GUI/Clean Beep.wav
+  artifactKey: Guid(0d72746ab3c8fd74981369d70a12477c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/BONUS/GUI/Clean Beep.wav using Guid(0d72746ab3c8fd74981369d70a12477c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f19a6fc4316f2e12c78f125d54830aa5') in 0.0223401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Jumpscare and Hits/Strike_005.wav
+  artifactKey: Guid(c739498bb4320064eb43430157c51a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Jumpscare and Hits/Strike_005.wav using Guid(c739498bb4320064eb43430157c51a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e48f457bf3aa2e32d0865cf57591b360') in 0.0314806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising Tension and Matched loops/Rising_005e.wav
+  artifactKey: Guid(ae815540b0f82cc49ba88bf3b389e457) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Rising Tension and Matched loops/Rising_005e.wav using Guid(ae815540b0f82cc49ba88bf3b389e457) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '778c732f5d18ed30cc513bf081a34500') in 0.0377123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_001(Beginning).wav
+  artifactKey: Guid(ffb2799cc67698c41b89cfae5fc2ac28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_001(Beginning).wav using Guid(ffb2799cc67698c41b89cfae5fc2ac28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0d8b62ee932ff82f4660653cb49e08d9') in 0.0567471 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Ambience FX/Falling-004.wav
+  artifactKey: Guid(6fd2f9d4ab7c23a4c84a794dac8d8667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Ambience FX/Falling-004.wav using Guid(6fd2f9d4ab7c23a4c84a794dac8d8667) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f2d415c187a0875a6cf63cf717736ca') in 0.0267772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos
+  artifactKey: Guid(ff89f3fe898b46540977f5d2352cd3e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos using Guid(ff89f3fe898b46540977f5d2352cd3e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ce9d13f7aec0f20c1cdbb03a06cc0df') in 0.003984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_001(Loop).wav
+  artifactKey: Guid(da32a42efe943a44eb47cb3ba82ee5a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_001(Loop).wav using Guid(da32a42efe943a44eb47cb3ba82ee5a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd689138358198d04f207bdcaab43c837') in 0.1622873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_008( SINGLE LOOP).wav
+  artifactKey: Guid(6d6a33094371f8a4b9d4178951b9e95a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/TextMesh Pro/Horror Atmosphere LITE/Ambience/Atmosphere And Chaos/Atmosphere_008( SINGLE LOOP).wav using Guid(6d6a33094371f8a4b9d4178951b9e95a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bea14b7be145fe7e2b6eb1ce35fb197f') in 0.1671779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.801291 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/asphalt/asphalt_2.png
+  artifactKey: Guid(d99bc480d43c34b2db1388ef795e1195) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/asphalt/asphalt_2.png using Guid(d99bc480d43c34b2db1388ef795e1195) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9aee1cf76df2b32859b31b4f7e8647a3') in 0.0563548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/asphalt/asphalt_5.png
+  artifactKey: Guid(9af26214ee2c84484ada6a0e06b6b7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/asphalt/asphalt_5.png using Guid(9af26214ee2c84484ada6a0e06b6b7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5af77b7990b654455e9bbf43557b75b7') in 0.040405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.053109 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/bamboo/bamboo_2.png
+  artifactKey: Guid(9abd3ef338b444eb7a24693630ab72e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/bamboo/bamboo_2.png using Guid(9abd3ef338b444eb7a24693630ab72e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58f56f929415e526c1da6858c5e90d82') in 0.0528415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/bamboo/bamboo_5.png
+  artifactKey: Guid(c1e35275bc74e4ddcbfd7d1e55b64436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/bamboo/bamboo_5.png using Guid(c1e35275bc74e4ddcbfd7d1e55b64436) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e37978e7af97557a6132a291c550ee5f') in 0.0411138 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.908534 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_2.png
+  artifactKey: Guid(0117dd45c29c541a7a0678411452bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_2.png using Guid(0117dd45c29c541a7a0678411452bbac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87eed98c2d224977e7365bba6f9a6bb8') in 0.0473911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_7.png
+  artifactKey: Guid(d08a98778b0694e88bd91d91ddb49879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/concrete/concrete_7.png using Guid(d08a98778b0694e88bd91d91ddb49879) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8623554403ecfd1bd708f3f2eac8d7cc') in 0.0572775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.003000 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/concrete/Materials/concrete_3.mat
+  artifactKey: Guid(5e5a526b2ffbbd542b2ee7f99e778c06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/concrete/Materials/concrete_3.mat using Guid(5e5a526b2ffbbd542b2ee7f99e778c06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'efa6120a6b2a83751cd3d68f60c2af80') in 0.0242848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.362977 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/wood/wood_2.png
+  artifactKey: Guid(6ab2e004b66b54d05afc108219aa169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/wood/wood_2.png using Guid(6ab2e004b66b54d05afc108219aa169c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81122dceaefde37551a53c03621f1db4') in 0.0589313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/4K Tiled Ground Textures p2/Textures/wood/wood_6.png
+  artifactKey: Guid(ebfa1b2bf87dd46d4a9f2d469bc3a5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/4K Tiled Ground Textures p2/Textures/wood/wood_6.png using Guid(ebfa1b2bf87dd46d4a9f2d469bc3a5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '038ec1f3f314626f973bf2141bdbcc48') in 0.046344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+ADTM: Control thread waiting for realtime thread timed out, have to lock...
+- Loaded All Assemblies, in  2.087 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.710 seconds
+Domain Reload Profiling: 2763ms
+	BeginReloadAssembly (1405ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1059ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (519ms)
+		LoadAssemblies (619ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (161ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (146ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (711ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (586ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (190ms)
+			ProcessInitializeOnLoadAttributes (304ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (44ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 4499 unused Assets / (1.3 MB). Loaded Objects now: 5125.
+Memory consumption went from 100.9 MB to 99.6 MB.
+Total: 8.238300 ms (FindLiveObjects: 0.574700 ms CreateObjectMapping: 0.483000 ms MarkObjects: 5.660400 ms  DeleteObjects: 1.518800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
