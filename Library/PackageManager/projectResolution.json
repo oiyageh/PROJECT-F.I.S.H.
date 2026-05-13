@@ -9,6 +9,16 @@
     "C:\\Program Files\\Unity\\Hub\\Editor\\6000.3.9f1\\Editor\\Data\\Resources\\PackageManager\\BuiltInPackages\\BuiltInPackagesCombined.sha1"
   ],
   "outputs": {
+    "com.unity.ai.navigation@2.0.12": {
+      "name": "com.unity.ai.navigation",
+      "displayName": "AI Navigation",
+      "resolvedPath": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Library\\PackageCache\\com.unity.ai.navigation@734c2c4c5591",
+      "fingerprint": "734c2c4c5591c25b6d4c6c83bd2f4957c118da40",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "2.0.12",
+      "source": "registry",
+      "testable": false
+    },
     "com.unity.cinemachine@3.1.6": {
       "name": "com.unity.cinemachine",
       "displayName": "Cinemachine",

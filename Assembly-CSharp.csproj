@@ -71,6 +71,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Billboard.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SimpleInteractObject.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\MonsterSpawnPoint.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SimpleInteractDialogue.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\PlayerPersist.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Door.cs" />
@@ -78,8 +79,10 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SpawnManager.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\MonsterManager.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganUISlot.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ThirdPersonController.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\LargeMonsterAI.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SmoothFlicker.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
@@ -109,6 +112,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SimpleInventory.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\MonsterSceneDoor.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganPuzzleUIManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
   </ItemGroup>
@@ -140,6 +144,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\Blood decal pack\readme.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineFill.shader" />
@@ -1213,6 +1218,14 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor.ConversionSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.ConversionSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.InputSystem.ForUI">
       <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
       <Private>False</Private>
@@ -1273,12 +1286,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.Multiplayer.Center.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.AI.Navigation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Shared.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Shared.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.AI.Navigation.Updater">
+      <HintPath>Library\ScriptAssemblies\Unity.AI.Navigation.Updater.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Core">
