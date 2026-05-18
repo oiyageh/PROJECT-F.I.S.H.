@@ -51,6 +51,7 @@
   <ItemGroup>
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\DialogueSystem.cs" />
     <Compile Include="Assets\MAIN STUFF\TEST STUFF\PixelateEffect.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\VentTravel.cs" />
@@ -73,6 +74,7 @@
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SimpleInteractObject.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\MonsterSpawnPoint.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SimpleInteractDialogue.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\PlayerLoad.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\PlayerPersist.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Door.cs" />
     <Compile Include="Assets\4K Tiled Ground Textures p2\Scripts\AutoSpriteChanger_gp2.cs" />
@@ -80,6 +82,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SpawnManager.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\MonsterManager.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\MainMenu.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganUISlot.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ThirdPersonController.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\LargeMonsterAI.cs" />
@@ -91,14 +94,17 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Info\Scripts\Readme.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganUIData.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\DialogueTrigger.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ThirdPersonCamera.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SpawnPoint.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\AutoSaveSystem.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\PushObjects.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\CutsceneSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
