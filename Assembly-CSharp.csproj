@@ -84,6 +84,7 @@
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\MonsterManager.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\MainMenu.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganUISlot.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\NoteSystem.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ThirdPersonController.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\LargeMonsterAI.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SmoothFlicker.cs" />
@@ -97,11 +98,12 @@
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\DialogueTrigger.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ThirdPersonCamera.cs" />
     <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\USELESS\PushObjects.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SpawnPoint.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\AutoSaveSystem.cs" />
-    <Compile Include="Assets\MAIN STUFF\SCRIPTS\PushObjects.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\USELESS\ScreenFade.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\CutsceneSystem.cs" />
@@ -109,7 +111,6 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
-    <Compile Include="Assets\MAIN STUFF\SCRIPTS\ScreenFade.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\VentSystem.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
@@ -137,7 +138,7 @@
     <None Include="Assets\QuickOutline\Resources\Shaders\OutlineMask.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\SDFFunctions.hlsl" />
-    <None Include="Assets\VNB - Office Set\ReadMe.txt" />
+    <None Include="Assets\MAIN STUFF\3D MODELS\VNB - Office Set\ReadMe.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
