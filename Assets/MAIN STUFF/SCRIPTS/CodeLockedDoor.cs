@@ -6,7 +6,6 @@ public class CodeLockedDoor : MonoBehaviour
 {
     [Header("Scene Transition")]
     public string sceneToLoad;
-    public string spawnPointName;
 
     [Header("Requirements")]
     public bool requiresItem = true;
@@ -27,25 +26,21 @@ public class CodeLockedDoor : MonoBehaviour
     public TMP_InputField codeInputField;
 
     [Header("Messages")]
-    [TextArea]
-    public string lockedMessage = "The door is locked.";
-
-    [TextArea]
-    public string wrongCodeMessage = "Wrong code.";
+    [TextArea] public string lockedMessage = "The door is locked.";
+    [TextArea] public string wrongCodeMessage = "Wrong code.";
 
     private bool playerInRange;
     private bool unlocked = false;
 
     void Start()
     {
-        // Hide UI at start
         if (lockedMessageUI != null)
             lockedMessageUI.SetActive(false);
 
         if (codePanelUI != null)
             codePanelUI.SetActive(false);
 
-        // Check saved unlock
+        // Load saved door state
         if (!string.IsNullOrEmpty(doorID) && GameManager.Instance.IsDoorUnlocked(doorID))
         {
             unlocked = true;
@@ -62,46 +57,44 @@ public class CodeLockedDoor : MonoBehaviour
 
     void TryOpenDoor()
     {
-        // Already unlocked
+        // Already unlocked → go instantly
         if (unlocked)
         {
             OpenDoor();
             return;
         }
 
-        // Check item
+        // Check item requirement
         if (requiresItem)
         {
-            if (!SimpleInventory.Instance.HasItem(requiredItem))
+            if (SimpleInventory.Instance == null ||
+                !SimpleInventory.Instance.HasItem(requiredItem))
             {
-                ShowMessage(lockedMessage + "\nNeed: " + requiredItem);
+                ShowMessage(lockedMessage + "\nMissing: " + requiredItem);
                 return;
             }
         }
 
-        // Check code
+        // Open code UI if required
         if (requiresCode)
         {
             if (codePanelUI != null)
             {
                 codePanelUI.SetActive(true);
-
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
             }
-
             return;
         }
 
+        // No code required → unlock immediately
         UnlockDoor();
     }
 
     public void SubmitCode()
     {
-        if (codeInputField == null)
-            return;
+        if (codeInputField == null) return;
 
-        // Correct code
         if (codeInputField.text == requiredCode)
         {
             UnlockDoor();
@@ -109,6 +102,9 @@ public class CodeLockedDoor : MonoBehaviour
         else
         {
             ShowMessage(wrongCodeMessage);
+
+            if (codeInputField != null)
+                codeInputField.text = "";
         }
     }
 
@@ -117,12 +113,12 @@ public class CodeLockedDoor : MonoBehaviour
         unlocked = true;
 
         // Consume item
-        if (requiresItem)
+        if (requiresItem && SimpleInventory.Instance != null)
         {
             SimpleInventory.Instance.UseItemByName(requiredItem);
         }
 
-        // Save unlock
+        // Save persistence
         if (!string.IsNullOrEmpty(doorID))
         {
             GameManager.Instance.UnlockDoor(doorID);
@@ -135,12 +131,14 @@ public class CodeLockedDoor : MonoBehaviour
         if (lockedMessageUI != null)
             lockedMessageUI.SetActive(false);
 
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+
         OpenDoor();
     }
 
     void OpenDoor()
     {
-        GameManager.Instance.spawnPointName = spawnPointName;
         SceneManager.LoadScene(sceneToLoad);
     }
 
@@ -165,9 +163,7 @@ public class CodeLockedDoor : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-        {
             playerInRange = true;
-        }
     }
 
     private void OnTriggerExit(Collider other)

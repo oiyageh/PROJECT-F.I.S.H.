@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(NavMeshAgent))]
 [RequireComponent(typeof(AudioSource))]
@@ -36,6 +37,9 @@ public class LargeMonsterAI : MonoBehaviour
 
     [Range(0f, 1f)]
     public float soundVolume = 1f;
+
+    [Header("Lose Screen")]
+    public string loseSceneName = "LoseScene";
 
     private NavMeshAgent agent;
     private AudioSource audioSource;
@@ -233,6 +237,14 @@ public class LargeMonsterAI : MonoBehaviour
     {
         nextSoundTime =
             Random.Range(minSoundDelay, maxSoundDelay);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            SceneManager.LoadScene(loseSceneName);
+        }
     }
 
     void OnDrawGizmosSelected()

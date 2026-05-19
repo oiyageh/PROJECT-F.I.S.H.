@@ -79,11 +79,13 @@
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\PlayerPersist.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Door.cs" />
     <Compile Include="Assets\4K Tiled Ground Textures p2\Scripts\AutoSpriteChanger_gp2.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\PauseMenu.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SpawnManager.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\MonsterManager.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\MainMenu.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\DestroyPlayerAndReleaseMouse.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganUISlot.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\NoteSystem.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ThirdPersonController.cs" />

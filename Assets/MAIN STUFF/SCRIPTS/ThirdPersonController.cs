@@ -9,6 +9,11 @@ public class ThirdPersonController : MonoBehaviour
     public float crouchSpeed = 2f;
     public float rotationSpeedSmooth = 10f;
 
+    [Header("Settings")]
+    public float mouseSensitivity = 1f;
+
+    [HideInInspector] public bool isPaused;
+
     [Header("Crouch")]
     public float standingHeight = 2f;
     public float crouchHeight = 1f;
@@ -40,8 +45,10 @@ public class ThirdPersonController : MonoBehaviour
 
     void Update()
     {
-        HandleCrouch();
+        if (isPaused)
+            return;
 
+        HandleCrouch();
         Move();
         ApplyGravity();
         HandleAnimations();
@@ -157,5 +164,10 @@ public class ThirdPersonController : MonoBehaviour
         animator.SetFloat("Speed", speedPercent);
         animator.SetBool("IsRunning", isRunning);
         animator.SetBool("IsCrouching", isCrouching);
+    }
+
+    public void SetPaused(bool paused)
+    {
+        isPaused = paused;
     }
 }

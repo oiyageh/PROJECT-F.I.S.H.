@@ -23,6 +23,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MAIN STUFF/StorageTEST.unity
     guid: 279ffd90b7da2b04ea4b1660048d1039
+  - enabled: 1
+    path: Assets/MAIN STUFF/TissueRoom.unity
+    guid: 703a9b3edfac3b249955423db9c0e66a
+  - enabled: 1
+    path: Assets/MAIN STUFF/WIN.unity
+    guid: aac8f168d15dd2344bbd1d833209807e
+  - enabled: 1
+    path: Assets/MAIN STUFF/LOSE.unity
+    guid: 2dca685e35ee2ae47bbbfb22bb926ceb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0

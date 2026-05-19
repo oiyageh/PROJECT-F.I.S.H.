@@ -7935,6 +7935,7 @@ MonoBehaviour:
   minSoundDelay: 8
   maxSoundDelay: 20
   soundVolume: 0.513
+  loseSceneName: LOSE
 --- !u!195 &1581394525
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -8524,7 +8525,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CodeLockedDoor
   sceneToLoad: WIN
-  spawnPointName: 
   requiresItem: 1
   requiredItem: RustedKey
   requiresCode: 1
