@@ -1,16 +1,16 @@
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
 public class NoteSystem : MonoBehaviour
 {
     [Header("Player")]
-    public Transform player;
     public string playerTag = "Player";
 
-    [Header("Interaction")]
-    public float interactDistance = 3f;
-    public LayerMask noteLayer;
+    [Header("Note Info")]
+    public string noteTitle = "Note";
+
+    [TextArea(5, 15)]
+    public string noteText;
 
     [Header("UI")]
     public GameObject notePanel;
@@ -19,112 +19,70 @@ public class NoteSystem : MonoBehaviour
 
     [Header("Controls")]
     public KeyCode interactKey = KeyCode.E;
-    public KeyCode closeKey = KeyCode.E;
 
-    [System.Serializable]
-    public class Note
-    {
-        public string noteID;
-
-        public string noteTitle;
-
-        [TextArea(5, 15)]
-        public string noteText;
-
-        public GameObject noteObject;
-    }
-
-    [Header("Notes")]
-    public List<Note> notes = new List<Note>();
-
-    private bool readingNote = false;
-
-    private List<string> collectedNotes = new List<string>();
+    private bool playerInside;
+    private bool readingNote;
+    private bool collected;
 
     void Start()
     {
-        notePanel.SetActive(false);
-
-        FindPlayer();
+        if (notePanel != null)
+        {
+            notePanel.SetActive(false);
+        }
     }
 
     void Update()
     {
-        // Keep searching if player is missing
-        if (player == null)
+        // OPEN NOTE
+        if (playerInside && !readingNote && !collected && Input.GetKeyDown(interactKey))
         {
-            FindPlayer();
+            OpenNote();
+        }
+
+        // CLOSE NOTE
+        else if (readingNote && Input.GetKeyDown(interactKey))
+        {
+            CloseNote();
+        }
+    }
+
+    void OpenNote()
+    {
+        // Safety checks
+        if (notePanel == null || titleText == null || bodyText == null)
+        {
+            Debug.LogError("NOTE UI REFERENCES ARE MISSING!");
             return;
         }
 
-        // Close note
-        if (readingNote)
-        {
-            if (Input.GetKeyDown(closeKey))
-            {
-                CloseNote();
-            }
-
-            return;
-        }
-
-        // Pick up note
-        if (Input.GetKeyDown(interactKey))
-        {
-            TryPickupNote();
-        }
-    }
-
-    void FindPlayer()
-    {
-        GameObject foundPlayer = GameObject.FindGameObjectWithTag(playerTag);
-
-        if (foundPlayer != null)
-        {
-            player = foundPlayer.transform;
-        }
-    }
-
-    void TryPickupNote()
-    {
-        Ray ray = new Ray(player.position, player.forward);
-
-        RaycastHit hit;
-
-        if (Physics.Raycast(ray, out hit, interactDistance, noteLayer))
-        {
-            for (int i = 0; i < notes.Count; i++)
-            {
-                if (hit.collider.gameObject == notes[i].noteObject)
-                {
-                    OpenNote(notes[i]);
-
-                    if (!collectedNotes.Contains(notes[i].noteID))
-                    {
-                        collectedNotes.Add(notes[i].noteID);
-                    }
-
-                    notes[i].noteObject.SetActive(false);
-
-                    break;
-                }
-            }
-        }
-    }
-
-    void OpenNote(Note note)
-    {
         readingNote = true;
+        collected = true;
 
         notePanel.SetActive(true);
 
-        titleText.text = note.noteTitle;
-        bodyText.text = note.noteText;
+        titleText.text = noteTitle;
+        bodyText.text = noteText;
 
         Time.timeScale = 0f;
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        // Hide note object
+        MeshRenderer mesh = GetComponent<MeshRenderer>();
+
+        if (mesh != null)
+        {
+            mesh.enabled = false;
+        }
+
+        Collider col = GetComponent<Collider>();
+
+        if (col != null)
+        {
+            col.enabled = false;
+        }
     }
 
     void CloseNote()
@@ -139,18 +97,19 @@ public class NoteSystem : MonoBehaviour
         Cursor.visible = false;
     }
 
-    public bool HasCollected(string noteID)
+    void OnTriggerEnter(Collider other)
     {
-        return collectedNotes.Contains(noteID);
+        if (other.CompareTag(playerTag))
+        {
+            playerInside = true;
+        }
     }
 
-    void OnDrawGizmos()
+    void OnTriggerExit(Collider other)
     {
-        if (player == null)
-            return;
-
-        Gizmos.color = Color.yellow;
-
-        Gizmos.DrawRay(player.position, player.forward * interactDistance);
+        if (other.CompareTag(playerTag))
+        {
+            playerInside = false;
+        }
     }
 }

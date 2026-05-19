@@ -414,8 +414,10 @@ MonoBehaviour:
   - text: "So I ended up in the break room one day.\n Enjoying the moment of solitary
       I got before suddenly..."
     image: {fileID: 21300000, guid: 34b0ab659e39f2a42acd36b8c1e9b3e4, type: 3}
-  - text: 
-    image: {fileID: 21300000, guid: fe97dd64269a7dc4ab38edf5d544e4d8, type: 3}
+  - text: "Loud screams could be heard outside, groans and begs for help before silence.
+      \nThe lights flickered, the power in the building struggling before some fully
+      went out."
+    image: {fileID: 21300000, guid: 82677e66d9a43e14b83e8aa699e3a140, type: 3}
   cutscenePanel: {fileID: 166017551}
   sceneImage: {fileID: 45161620}
   dialogueText: {fileID: 1786414506}

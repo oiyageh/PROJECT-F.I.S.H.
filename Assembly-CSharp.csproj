@@ -55,6 +55,7 @@
     <Compile Include="Assets\MAIN STUFF\TEST STUFF\PixelateEffect.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\VentTravel.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\CodeLockedDoor.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
@@ -97,8 +98,8 @@
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganUIData.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\DialogueTrigger.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\ThirdPersonCamera.cs" />
-    <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\USELESS\PushObjects.cs" />
+    <Compile Include="Assets\IgniteCoders\Simple Water Shader\Resources\WaterReflection.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SpawnPoint.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
@@ -118,6 +119,7 @@
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\DoorTeleport.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
+    <Compile Include="Assets\MAIN STUFF\SCRIPTS\ReturnToMainMenu.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\SimpleInventory.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\LARGEMONSTER\MonsterSceneDoor.cs" />
     <Compile Include="Assets\MAIN STUFF\SCRIPTS\Puzzle 2 organs\OrganPuzzleUIManager.cs" />

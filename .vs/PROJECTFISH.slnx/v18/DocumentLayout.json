@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\NoteSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\MAIN STUFF\\SCRIPTS\\NoteSystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\returntomainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\returntomainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\codelockeddoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\codelockeddoor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\notesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\notesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\cutscenesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -51,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|c:\\users\\omola\\documents\\github\\projectfish\\assets\\main stuff\\scripts\\playerpersist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B4CD19DA-EE08-5225-FB19-1D0DFA4113DD}|Assembly-CSharp.csproj|solutionrelative:assets\\main stuff\\scripts\\playerpersist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -90,11 +98,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReturnToMainMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\ReturnToMainMenu.cs",
+              "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\ReturnToMainMenu.cs",
+              "ToolTip": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\ReturnToMainMenu.cs",
+              "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\ReturnToMainMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T00:23:42.852Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CodeLockedDoor.cs",
+              "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\CodeLockedDoor.cs",
+              "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\CodeLockedDoor.cs",
+              "ToolTip": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\CodeLockedDoor.cs",
+              "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\CodeLockedDoor.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwLkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T23:12:55.266Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CutsceneSystem.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\CutsceneSystem.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\CutsceneSystem.cs",
@@ -102,12 +136,11 @@
               "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\CutsceneSystem.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAADwv2EAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T03:50:33.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-18T03:50:33.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "MainMenu.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\MainMenu.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\MainMenu.cs",
@@ -119,7 +152,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "DialogueTrigger.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\DialogueTrigger.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\DialogueTrigger.cs",
@@ -131,7 +164,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "MonsterSpawnPoint.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\LARGEMONSTER\\MonsterSpawnPoint.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\LARGEMONSTER\\MonsterSpawnPoint.cs",
@@ -143,7 +176,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "MonsterManager.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\LARGEMONSTER\\MonsterManager.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\LARGEMONSTER\\MonsterManager.cs",
@@ -155,7 +188,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "MonsterSceneDoor.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\LARGEMONSTER\\MonsterSceneDoor.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\LARGEMONSTER\\MonsterSceneDoor.cs",
@@ -167,7 +200,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "SimpleInteractDialogue.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SimpleInteractDialogue.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\SimpleInteractDialogue.cs",
@@ -179,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\GameManager.cs",
@@ -191,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "DialogueSystem.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\DialogueSystem.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\DialogueSystem.cs",
@@ -203,7 +236,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\SpawnManager.cs",
@@ -215,19 +248,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "Door.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\Door.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\Door.cs",
               "ToolTip": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\Door.cs",
               "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\Door.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAuwGsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-12T03:11:00.451Z"
+              "WhenOpened": "2026-05-12T03:11:00.451Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "PlayerPersist.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\PlayerPersist.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\PlayerPersist.cs",
@@ -239,7 +273,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "PickupItem.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\PickupItem.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\PickupItem.cs",
@@ -251,7 +285,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "SimpleInventory.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\SimpleInventory.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\SimpleInventory.cs",
@@ -263,20 +297,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "NoteSystem.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\NoteSystem.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\NoteSystem.cs",
               "ToolTip": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\NoteSystem.cs",
               "RelativeToolTip": "Assets\\MAIN STUFF\\SCRIPTS\\NoteSystem.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAADwv5sAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAEcAAAAAAAAAAADwv3IAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-18T04:26:58.389Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "AutoSaveSystem.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\AutoSaveSystem.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\AutoSaveSystem.cs",
@@ -288,7 +322,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "PlayerLoad.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\PlayerLoad.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\PlayerLoad.cs",
@@ -300,7 +334,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "OrganPuzzleUIManager.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\Puzzle 2 organs\\OrganPuzzleUIManager.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\Puzzle 2 organs\\OrganPuzzleUIManager.cs",
@@ -312,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "OrganUISlot.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\Puzzle 2 organs\\OrganUISlot.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\Puzzle 2 organs\\OrganUISlot.cs",
@@ -324,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Billboard.cs",
               "DocumentMoniker": "C:\\Users\\Omola\\Documents\\GitHub\\PROJECTFISH\\Assets\\MAIN STUFF\\SCRIPTS\\Billboard.cs",
               "RelativeDocumentMoniker": "Assets\\MAIN STUFF\\SCRIPTS\\Billboard.cs",
